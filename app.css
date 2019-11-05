@@ -1,0 +1,63 @@
+.poster{
+    width: 600px;
+}
+
+.pieces{
+    transform-origin: 50% 50%;
+    animation: appear;
+}
+
+[number = "1"] 
+{
+    animation: one 8.4s !important;
+}
+
+[number = "2"]{
+    animation: two 8.4s !important;
+}
+
+[number = "3"]{
+    animation: three 8.4s !important;
+}
+[number = "4"]{
+    fill: blue !important;
+    stroke: blue !important;
+    animation: four 8.4s !important;
+}
+
+
+@keyframes four{
+    0%{
+        transform: translate(-240px, -300px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes three{
+    0%{
+        transform: translate(-340px, -300px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes two{
+    0%{
+        transform: translate(-90px, -300px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes one{
+    0%{
+        transform: translate(-260px, -300px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
