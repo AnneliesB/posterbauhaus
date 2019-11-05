@@ -19,15 +19,15 @@
 }
 
 [number = "2"]{
-    animation: two 0.4s linear 28.1s reverse forwards;
+   animation: two 0.4s linear 28.1s reverse forwards;
 }
 
 [number = "3"]{
-    animation: three 0.4s linear 37.12s reverse forwards;
+   animation: three 0.4s linear 37.12s reverse forwards;
 } 
 
 [number = "4"]{
-    animation: four 0.4s linear 4.3s reverse forwards;/*hier*/
+    animation: four 0.4s linear 4.3s reverse forwards;
 }
 
 [number = "5"]{
@@ -1204,7 +1204,7 @@
 
 @keyframes eleven{
     0%{
-        transform: translate(-385px, -600px)
+        transform: translate(-770px, -600px)
     }
     100%{
         transform: translate(0px, 0px)
@@ -1213,7 +1213,7 @@
 
 @keyframes ten{
     0%{
-        transform: translate(-180px, -600px)
+        transform: translate(-355px, -600px)
     }
     100%{
         transform: translate(0px, 0px)
@@ -1222,7 +1222,7 @@
 
 @keyframes nine{
     0%{
-        transform: translate(685px, -600px)
+        transform: translate(1385px, -600px)
     }
     100%{
         transform: translate(0px, 0px)
@@ -1231,7 +1231,7 @@
 
 @keyframes eight{
     0%{
-        transform: translate(-445px, -600px)
+        transform: translate(-885px, -600px)
     }
     100%{
         transform: translate(0px, 0px)
@@ -1240,7 +1240,7 @@
 
 @keyframes seven{
     0%{
-        transform: translate(-205px, -600px)
+        transform: translate(-410px, -600px)
     }
     100%{
         transform: translate(0px, 0px)
@@ -1249,7 +1249,7 @@
 
 @keyframes six{
     0%{
-        transform: translate(-130px, -600px)
+        transform: translate(-260px, -600px)
     }
     100%{
         transform: translate(0px, 0px)
@@ -1258,7 +1258,7 @@
 
 @keyframes five{
     0%{
-        transform: translate(-110px, -600px)
+        transform: translate(-215px, -600px)
     }
     100%{
         transform: translate(0px, 0px)
@@ -1276,7 +1276,7 @@
 
 @keyframes three{
     0%{
-        transform: translate(-340px, -600px)
+        transform: translate(-680px, -600px)
     }
     100%{
         transform: translate(0px, 0px)
@@ -1285,7 +1285,7 @@
 
 @keyframes two{
     0%{
-        transform: translate(-90px, -600px)
+        transform: translate(-175px, -600px)
     }
     100%{
         transform: translate(0px, 0px)
