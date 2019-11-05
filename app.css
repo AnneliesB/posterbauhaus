@@ -1,34 +1,600 @@
 .poster{
     width: 600px;
+    margin: auto;
 }
 
 .pieces{
     transform-origin: 50% 50%;
     animation: appear;
 }
-
+/*
 [number = "1"] 
 {
-    animation: one 8.4s !important;
+    animation: one 0.3s linear;
 }
 
 [number = "2"]{
-    animation: two 8.4s !important;
+    animation: two 0.3s linear;
 }
 
 [number = "3"]{
-    animation: three 8.4s !important;
-}
+    animation: three 0.3s linear;
+} 
+
 [number = "4"]{
-    fill: blue !important;
-    stroke: blue !important;
-    animation: four 8.4s !important;
+    animation: four 0.3s linear;
 }
 
+[number = "5"]{
+    animation: five 0.3s linear;
+}
+
+[number = "6"]{
+    animation: six 0.3s linear;
+}
+
+[number = "7"]{
+    animation: seven 0.3s linear;
+}
+
+[number = "8"]{
+    animation: eight 0.3s linear;
+}
+
+[number = "9"]{
+    animation: nine 0.3s linear;
+}
+
+[number = "10"]{
+    animation: ten 0.3s linear;
+}
+
+[number = "11"]{
+    animation: eleven 0.3s linear;
+}
+
+[number = "12"]{
+    animation: twelve 0.3s linear;
+}
+
+[number = "13"]{
+    animation: thirteen 0.3s linear;
+}
+
+[number = "14"]{
+    animation: fourteen 0.3s linear;
+} 
+
+[number = "15"]{
+    animation: fifteen 0.3s linear;
+}
+
+[number = "16"]{
+    animation: sixteen 0.3s linear;
+} 
+
+[number = "17"]{
+    animation: seventeen 0.3s linear;
+}
+
+[number = "18"]{
+    animation: eighteen 0.3s linear;
+}
+
+[number = "19"]{
+    animation: nineteen 0.3s linear;
+}
+
+[number = "20"]{
+    animation: twenty 0.3s linear;
+}
+
+[number = "21"]{
+    animation: twentyone 0.3s linear;
+}
+
+[number = "22"]{
+    animation: twentytwo 0.3s linear;
+}
+
+[number = "23"]{
+    animation: twentythree 0.3s linear;
+}
+
+[number = "24"]{
+    animation: twentyfour 0.3s linear;
+}
+
+[number = "25"]{
+    animation: twentyfive 0.3s linear;
+}
+
+[number = "26"]{
+    animation: twentysix 0.3s linear;
+}
+
+[number = "27"]{
+    animation: twentyseven 0.3s linear;
+}
+
+[number = "28"]{
+    animation: twentyeight 0.3s linear;
+}
+
+[number = "29"]{
+    animation: twentynine 0.3s linear;
+}
+
+[number = "30"]{
+    animation: thirty 0.3s linear;
+}
+
+[number = "31"]{
+    animation: thirtyone 0.3s linear;
+}
+
+[number = "32"]{
+    animation: thirtytwo 0.3s linear;
+}
+
+[number = "33"]{
+    animation: thirtythree 0.3s linear;
+}
+
+[number = "34"]{
+    animation: thirtyfour 0.3s linear;
+}
+
+[number = "35"]{
+    animation: thirtyfive 0.3s linear;
+}
+
+[number = "36"]{
+    animation: thirtysix 0.3s linear;
+}
+
+[number = "37"]{
+    animation: thirtyseven 0.3s linear;
+}
+
+[number = "38"]{
+    animation: thirtyeight 0.3s linear;
+}
+
+[number = "39"]{
+    animation: thirtynine 0.3s linear;
+}
+
+[number = "40"]{
+    animation: forty 0.3s linear;
+}
+
+[number = "41"]{
+    animation: fortyone 2.3s linear;
+}
+
+[number = "42"]{
+    animation: fortytwo 2.3s linear;
+}
+
+[number = "43"]{
+    animation: fortythree 2.3s linear;
+}
+
+[number = "44"]{
+    fill: blue !important;
+    stroke: blue !important;
+    animation: fortyfour 2.3s linear;
+}
+
+[number = "45"]{
+    fill: blue !important;
+    stroke: blue !important;
+    animation: fortyfive 2.3s linear;
+}
+
+[number = "46"]{
+    fill: blue !important;
+    stroke: blue !important;
+    animation: fortysix 2.3s linear;
+}*/
+
+[number = "47"]{
+    fill: blue !important;
+    stroke: blue !important;
+    animation: fortyseven 2.3s linear;
+}
+
+@keyframes fortyseven{
+    0%{
+        transform: translate(-310px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes fortysix{
+    0%{
+        transform: translate(-310px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes fortyfive{
+    0%{
+        transform: translate(135px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes fortyfour{
+    0%{
+        transform: translate(95px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes fortythree{
+    0%{
+        transform: translate(-135px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes fortytwo{
+    0%{
+        transform: translate(215px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes fortyone{
+    0%{
+        transform: translate(260px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes forty{
+    0%{
+        transform: translate(-60px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes thirtynine{
+    0%{
+        transform: translate(-100px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes thirtyeight{
+    0%{
+        transform: translate(-20px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes thirtyseven{
+    0%{
+        transform: translate(15px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes thirtysix{
+    0%{
+        transform: translate(55px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes thirtyfive{
+    0%{
+        transform: translate(180px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes thirtyfour{
+    0%{
+        transform: translate(880px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes thirtythree{
+    0%{
+        transform: translate(780px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes thirtytwo{
+    0%{
+        transform: translate(685px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes thirtyone{
+    0%{
+        transform: translate(1180px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes thirty{
+    0%{
+        transform: translate(310px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes twentynine{
+    0%{
+        transform: translate(1015px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes twentyeight{
+    0%{
+        transform: translate(355px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes twentyseven{
+    0%{
+        transform: translate(410px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes twentysix{
+    0%{
+        transform: translate(470px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes twentyfive{
+    0%{
+        transform: translate(535px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes twentyfour{
+    0%{
+        transform: translate(605px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes twentythree{
+    0%{
+        transform: translate(-605px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes twentytwo{
+    0%{
+        transform: translate(-2060px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes twentyone{
+    0%{
+        transform: translate(-1660px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes twenty{
+    0%{
+        transform: translate(-1160px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes nineteen{
+    0%{
+        transform: translate(-2670px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes eighteen{
+    0%{
+        transform: translate(-1010px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes seventeen{
+    0%{
+        transform: translate(-1395px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes sixteen{
+    0%{
+        transform: translate(-18505px, 600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes fifteen{
+    0%{
+        transform: translate(-6505px, 600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes fourteen{
+    0%{
+        transform: translate(-3705px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes thirteen{
+    0%{
+        transform: translate(-16285px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes twelve{
+    0%{
+        transform: translate(-2885px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes eleven{
+    0%{
+        transform: translate(-385px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes ten{
+    0%{
+        transform: translate(-180px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes nine{
+    0%{
+        transform: translate(685px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes eight{
+    0%{
+        transform: translate(-445px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes seven{
+    0%{
+        transform: translate(-205px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes six{
+    0%{
+        transform: translate(-130px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
+
+@keyframes five{
+    0%{
+        transform: translate(-110px, -600px)
+    }
+    100%{
+        transform: translate(0px, 0px)
+    }
+}
 
 @keyframes four{
     0%{
-        transform: translate(-240px, -300px)
+        transform: translate(-235px, -600px)
     }
     100%{
         transform: translate(0px, 0px)
@@ -37,7 +603,7 @@
 
 @keyframes three{
     0%{
-        transform: translate(-340px, -300px)
+        transform: translate(-340px, -600px)
     }
     100%{
         transform: translate(0px, 0px)
@@ -46,7 +612,7 @@
 
 @keyframes two{
     0%{
-        transform: translate(-90px, -300px)
+        transform: translate(-90px, -600px)
     }
     100%{
         transform: translate(0px, 0px)
@@ -55,7 +621,7 @@
 
 @keyframes one{
     0%{
-        transform: translate(-260px, -300px)
+        transform: translate(-260px, -600px)
     }
     100%{
         transform: translate(0px, 0px)
