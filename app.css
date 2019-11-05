@@ -10,7 +10,8 @@
 
 [number = "0"] 
 {
-    animation: zero 0.4s linear 5.1s reverse forwards;
+    fill: red !important;
+    animation: zero 0.4s linear 5.1s reverse forwards, zero 10.4s linear 15.1s forwards;
 }
 
 [number = "1"] 
@@ -412,900 +413,920 @@
 
 @keyframes ninetynine{
     0%{
-        transform: translate(9000px, 600px)
+        transform: translate(9000px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes ninetyeight{
     0%{
-        transform: translate(2060px, -600px)
+        transform: translate(2060px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes ninetyseven{
     0%{
-        transform: translate(2660px, -600px)
+        transform: translate(2660px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes ninetysix{
     0%{
-        transform: translate(3660px, -600px)
+        transform: translate(3660px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes ninetyfive{
     0%{
-        transform: translate(6660px, -600px)
+        transform: translate(6660px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes ninetyfour{
     0%{
-        transform: translate(4660px, -600px)
+        transform: translate(4660px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes ninetythree{
     0%{
-        transform: translate(1660px, -600px)
+        transform: translate(1660px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes ninetytwo{
     0%{
-        transform: translate(-260px, 600px)
+        transform: translate(-260px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes ninetyone{
     0%{
-        transform: translate(-405px, 600px)
+        transform: translate(-405px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes ninety{
     0%{
-        transform: translate(-305px, 600px)
+        transform: translate(-305px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes eightynine{
     0%{
-        transform: translate(-355px, 600px)
+        transform: translate(-355px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes eightyeight{
     0%{
-        transform: translate(-215px, 600px)
+        transform: translate(-215px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes eightyseven{
     0%{
-        transform: translate(20px, 600px)
+        transform: translate(20px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes eightysix{
     0%{
-        transform: translate(-175px, 600px)
+        transform: translate(-175px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes eightyfive{
     0%{
-        transform: translate(-20px, 600px)
+        transform: translate(-20px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes eightyfour{
     0%{
-        transform: translate(-135px, 600px)
+        transform: translate(-135px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes eightythree{
     0%{
-        transform: translate(-95px, 600px)
+        transform: translate(-95px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes eightytwo{
     0%{
-        transform: translate(-60px, 600px)
+        transform: translate(-60px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes eightyone{
     0%{
-        transform: translate(-1380px, 600px)
+        transform: translate(-1380px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes eighty{
     0%{
-        transform: translate(-1180px, 600px)
+        transform: translate(-1180px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes seventynine{
     0%{
-        transform: translate(-1005px, 600px)
+        transform: translate(-1005px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes seventyeight{
     0%{
-        transform: translate(-1650px, 600px)
+        transform: translate(-1650px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes seventyseven{
     0%{
-        transform: translate(-2075px, 600px)
+        transform: translate(-2075px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes seventysix{
     0%{
-        transform: translate(-675px, 600px)
+        transform: translate(-675px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes seventyfive{
     0%{
-        transform: translate(-600px, 600px)
+        transform: translate(-600px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes seventyfour{
     0%{
-        transform: translate(-530px, 600px)
+        transform: translate(-530px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes seventythree{
     0%{
-        transform: translate(-765px, 600px)
+        transform: translate(-765px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes seventytwo{
     0%{
-        transform: translate(-465px, 600px)
+        transform: translate(-465px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes seventyone{
     0%{
-        transform: translate(-875px, 600px)
+        transform: translate(-875px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes seventy{
     0%{
-        transform: translate(215px, 600px)
+        transform: translate(215px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes sixtynine{
     0%{
-        transform: translate(55px, 600px)
+        transform: translate(55px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes sixtyeight{
     0%{
-        transform: translate(1190px, 600px)
+        transform: translate(1190px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes sixtyseven{
     0%{
-        transform: translate(765px, 600px)
+        transform: translate(765px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes sixtysix{
     0%{
-        transform: translate(885px, 600px)
+        transform: translate(885px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes sixtyfive{
     0%{
-        transform: translate(1395px, 600px)
+        transform: translate(1395px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes sixtyfour{
     0%{
-        transform: translate(1015px, 600px)
+        transform: translate(1015px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes sixtythree{
     0%{
-        transform: translate(5575px, 600px)
+        transform: translate(5575px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes sixtytwo{
     0%{
-        transform: translate(3675px, 600px)
+        transform: translate(3675px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes sixtyone{
     0%{
-        transform: translate(1675px, 600px)
+        transform: translate(1675px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes sixty{
     0%{
-        transform: translate(2075px, 600px)
+        transform: translate(2075px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fiftynine{
     0%{
-        transform: translate(2675px, 600px)
+        transform: translate(2675px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fiftyeight{
     0%{
-        transform: translate(675px, 600px)
+        transform: translate(675px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fiftyseven{
     0%{
-        transform: translate(-2675px, 600px)
+        transform: translate(-2675px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fiftysix{
     0%{
-        transform: translate(175px, 600px)
+        transform: translate(175px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fiftyfive{
     0%{
-        transform: translate(135px, 600px)
+        transform: translate(135px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fiftyfour{
     0%{
-        transform: translate(95px, 600px)
+        transform: translate(95px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fiftythree{
     0%{
-        transform: translate(260px, 600px)
+        transform: translate(260px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fiftytwo{
     0%{
-        transform: translate(530px, 600px)
+        transform: translate(530px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fiftyone{
     0%{
-        transform: translate(595px, 600px)
+        transform: translate(595px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fifty{
     0%{
-        transform: translate(465px, 600px)
+        transform: translate(465px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fortynine{
     0%{
-        transform: translate(355px, 600px)
+        transform: translate(355px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fortyeight{
     0%{
-        transform: translate(310px, 600px)
+        transform: translate(310px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fortyseven{
     0%{
-        transform: translate(410px, 600px)
+        transform: translate(410px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fortysix{
     0%{
-        transform: translate(-310px, -600px)
+        transform: translate(-310px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fortyfive{
     0%{
-        transform: translate(135px, -600px)
+        transform: translate(135px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fortyfour{
     0%{
-        transform: translate(95px, -600px)
+        transform: translate(95px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fortythree{
     0%{
-        transform: translate(-135px, -600px)
+        transform: translate(-135px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fortytwo{
     0%{
-        transform: translate(215px, -600px)
+        transform: translate(215px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fortyone{
     0%{
-        transform: translate(260px, -600px)
+        transform: translate(260px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes forty{
     0%{
-        transform: translate(-60px, -600px)
+        transform: translate(-60px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes thirtynine{
     0%{
-        transform: translate(-100px, -600px)
+        transform: translate(-100px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes thirtyeight{
     0%{
-        transform: translate(-20px, -600px)
+        transform: translate(-20px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes thirtyseven{
     0%{
-        transform: translate(15px, -600px)
+        transform: translate(15px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes thirtysix{
     0%{
-        transform: translate(55px, -600px)
+        transform: translate(55px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes thirtyfive{
     0%{
-        transform: translate(180px, -600px)
+        transform: translate(180px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes thirtyfour{
     0%{
-        transform: translate(880px, -600px)
+        transform: translate(880px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes thirtythree{
     0%{
-        transform: translate(780px, -600px)
+        transform: translate(780px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes thirtytwo{
     0%{
-        transform: translate(685px, -600px)
+        transform: translate(685px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes thirtyone{
     0%{
-        transform: translate(1180px, -600px)
+        transform: translate(1180px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes thirty{
     0%{
-        transform: translate(310px, -600px)
+        transform: translate(310px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes twentynine{
     0%{
-        transform: translate(1015px, -600px)
+        transform: translate(1015px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes twentyeight{
     0%{
-        transform: translate(355px, -600px)
+        transform: translate(355px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes twentyseven{
     0%{
-        transform: translate(410px, -600px)
+        transform: translate(410px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes twentysix{
     0%{
-        transform: translate(470px, -600px)
+        transform: translate(470px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes twentyfive{
     0%{
-        transform: translate(535px, -600px)
+        transform: translate(535px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes twentyfour{
     0%{
-        transform: translate(605px, -600px)
+        transform: translate(605px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes twentythree{
     0%{
-        transform: translate(-605px, -600px)
+        transform: translate(-605px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes twentytwo{
     0%{
-        transform: translate(-2060px, -600px)
+        transform: translate(-2060px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes twentyone{
     0%{
-        transform: translate(-1660px, -600px)
+        transform: translate(-1660px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes twenty{
     0%{
-        transform: translate(-1160px, -600px)
+        transform: translate(-1160px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes nineteen{
     0%{
-        transform: translate(-2670px, -600px)
+        transform: translate(-2670px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes eighteen{
     0%{
-        transform: translate(-1010px, -600px)
+        transform: translate(-1010px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes seventeen{
     0%{
-        transform: translate(-1395px, -600px)
+        transform: translate(-1395px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes sixteen{
     0%{
-        transform: translate(-18505px, 600px)
+        transform: translate(-18505px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fifteen{
     0%{
-        transform: translate(-6505px, 600px)
+        transform: translate(-6505px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes fourteen{
     0%{
-        transform: translate(-3705px, -600px)
+        transform: translate(-3705px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes thirteen{
     0%{
-        transform: translate(-16285px, -600px)
+        transform: translate(-16285px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes twelve{
     0%{
-        transform: translate(-2885px, -600px)
+        transform: translate(-2885px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes eleven{
     0%{
-        transform: translate(-770px, -600px)
+        transform: translate(-770px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes ten{
     0%{
-        transform: translate(-355px, -600px)
+        transform: translate(-355px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes nine{
     0%{
-        transform: translate(1385px, -600px)
+        transform: translate(1385px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes eight{
     0%{
-        transform: translate(-885px, -600px)
+        transform: translate(-885px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes seven{
     0%{
-        transform: translate(-410px, -600px)
+        transform: translate(-410px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes six{
     0%{
-        transform: translate(-260px, -600px)
+        transform: translate(-260px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes five{
     0%{
-        transform: translate(-215px, -600px)
+        transform: translate(-215px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes four{
     0%{
-        transform: translate(-465px, -600px)
+        transform: translate(-465px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes three{
     0%{
-        transform: translate(-680px, -600px)
+        transform: translate(-680px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes two{
     0%{
-        transform: translate(-175px, -600px)
+        transform: translate(-175px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes one{
     0%{
-        transform: translate(-530px, -600px)
+        transform: translate(-530px, -600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes zero{
     0%{
-        transform: translate(-3760px, 600px)
+        transform: translate(-3760px, 600px);
     }
     100%{
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
     }
 }
+
+/* @keyframes zero{
+    0%{
+        opacity: 1;
+    }
+    1%{
+        transform: translate(0px, 0px);
+    }
+    89%{
+        opacity: 0;
+    }
+    99%{
+        transform: translate(-3760px, 600px);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+} */
