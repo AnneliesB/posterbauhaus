@@ -1,5 +1,5 @@
 .poster{
-    width: 600px;
+    width: 400px;
     margin: auto;
 }
 
@@ -10,412 +10,415 @@
 
 [number = "0"] 
 {
-    animation: zero 75.4s linear 5.1s reverse forwards;
+    animation: zero 75.4s linear 2.55s reverse forwards infinite;
 }
 
 [number = "1"] 
 {
-    animation: one 75.4s linear 7.27s reverse forwards;
+    animation: one 75.4s linear 3.63s reverse forwards infinite;
 }
 
 [number = "2"]{
-   animation: two 75.4s linear 28.1s reverse forwards;
+   animation: two 75.4s linear 14.05s reverse forwards infinite;
 }
 
 [number = "3"]{
-   animation: three 75.4s linear 37.12s reverse forwards;
+   animation: three 75.4s linear 18.06s reverse forwards infinite;
 } 
 
 [number = "4"]{
-    animation: four 75.4s linear 4.3s reverse forwards;
+    animation: four 75.4s linear 2.15s reverse forwards infinite;
 }
 
 [number = "5"]{
-    animation: five 75.4s linear 33.23s reverse forwards;
+    animation: five 75.4s linear 16.62s reverse forwards infinite;
 }
 
 [number = "6"]{
-    animation: six 75.4s linear 68.21s reverse forwards;
+    animation: six 75.4s linear 34.11s reverse forwards infinite;
 }
 
 [number = "7"]{
-    animation: seven 75.4s linear 71.36s reverse forwards;
+    animation: seven 75.4s linear 35.68s reverse forwards infinite;
 }
 
 [number = "8"]{
-    animation: eight 75.4s linear 51.47s reverse forwards;
+    animation: eight 75.4s linear 25.87s reverse forwards infinite;
 }
 
 [number = "9"]{
-    animation: nine 75.4s linear 6.3s reverse forwards;
+    animation: nine 75.4s linear 3.15s reverse forwards infinite;
 }
 
 [number = "10"]{
-    animation: ten 75.4s linear 40.2s reverse forwards;
+    animation: ten 75.4s linear 20.1s reverse forwards infinite;
 }
 
 [number = "11"]{
-    animation: eleven 75.4s linear 44.48s reverse forwards;
+    animation: eleven 75.4s linear 22.24s reverse forwards infinite;
 }
 
 [number = "12"]{
-    animation: twelve 75.4s linear 26.12s reverse forwards;
+    animation: twelve 75.4s linear 13.06s reverse forwards infinite;
 }
 
 [number = "13"]{
-    animation: thirteen 75.4s linear 67.47s reverse forwards;
+    animation: thirteen 75.4s linear 36.98s reverse forwards infinite;
 }
 
 [number = "14"]{
-    animation: fourteen 75.4s linear 16.42s reverse forwards;
+    animation: fourteen 75.4s linear 8.21s reverse forwards infinite;
 } 
 
 [number = "15"]{
-    animation: fifteen 75.4s linear 7.33s reverse forwards;
+    animation: fifteen 75.4s linear 3.94s reverse forwards infinite;
 }
 
 [number = "16"]{
-    animation: sixteen 75.4s linear 39.17s  reverse forwards;
+    animation: sixteen 75.4s linear 19.23s  reverse forwards infinite;
 } 
 
 [number = "17"]{
-    animation: seventeen 75.4s linear 74.3s reverse forwards;
+    animation: seventeen 75.4s linear 37.15s reverse forwards infinite;
 }
 
 [number = "18"]{
-    animation: eighteen 75.4s linear 23.39s reverse forwards;
+    animation: eighteen 75.4s linear 12.67s reverse forwards infinite;
 }
 
 [number = "19"]{
-    animation: nineteen 75.4s linear 31.18s reverse forwards;
+    animation: nineteen 75.4s linear 16.23s reverse forwards infinite;
 }
 
 [number = "20"]{
-    animation: twenty 75.4s linear 39.46s reverse forwards;
+    animation: twenty 75.4s linear 19.63s reverse forwards infinite;
 }
 
 [number = "21"]{
-    animation: twentyone 75.4s linear 51.31s reverse forwards;
+    animation: twentyone 75.4s linear 26.71s reverse forwards infinite;
 }
 
 [number = "22"]{
-    animation: twentytwo 75.4s linear 12.51s reverse forwards;
+    animation: twentytwo 75.4s linear 6.26s reverse forwards infinite;
 }
 
 [number = "23"]{
-    animation: twentythree 75.4s linear 21.46s reverse forwards;
+    animation: twentythree 75.4s linear 11.02s reverse forwards infinite;
 }
 
 [number = "24"]{
-    animation: twentyfour 75.4s linear 35.3s reverse forwards;
+    animation: twentyfour 75.4s linear 18.29s reverse forwards infinite;
 }
 
 [number = "25"]{
-    animation: twentyfive 75.4s linear 44.16s reverse forwards;
+    animation: twentyfive 75.4s linear 22.08s reverse forwards infinite;
 }
 
 [number = "26"]{
-    animation: twentysix 75.4s linear 70.47s reverse forwards;
+    animation: twentysix 75.4s linear 35.27s reverse forwards infinite;
 }
 
 [number = "27"]{
-    animation: twentyseven 75.4s linear 44.34s reverse forwards;
+    animation: twentyseven 75.4s linear 22.19s reverse forwards infinite;
 }
 
 [number = "28"]{
-    animation: twentyeight 75.4s linear 2.53s reverse forwards;
+    animation: twentyeight 75.4s linear 1.27s reverse forwards infinite;
 }
 
 [number = "29"]{
-    animation: twentynine 75.4s linear 20.31s reverse forwards;
+    animation: twentynine 75.4s linear 10.11s reverse forwards infinite;
 }
 
 [number = "30"]{
-    animation: thirty 75.4s linear 59.2s reverse forwards;
+    animation: thirty 75.4s linear 29.51s reverse forwards infinite;
 }
 
 [number = "31"]{
-    animation: thirtyone 75.4s linear 69.1s reverse forwards;
+    animation: thirtyone 75.4s linear 34.02s reverse forwards infinite;
 }
 
 [number = "32"]{
-    animation: thirtytwo 75.4s linear 70.57s reverse forwards;
+    animation: thirtytwo 75.4s linear 35.32s reverse forwards infinite;
 }
 
 [number = "33"]{
-    animation: thirtythree 75.4s linear 65.31s reverse forwards;
+    animation: thirtythree 75.4s linear 33.31s reverse forwards infinite;
 }
 
 [number = "34"]{
-    animation: thirtyfour 75.4s linear 33.18s reverse forwards;
+    animation: thirtyfour 75.4s linear 16.18s reverse forwards infinite;
 }
 
 [number = "35"]{
-    animation: thirtyfive 75.4s linear 51.08s reverse forwards;
+    animation: thirtyfive 75.4s linear 16.08s reverse forwards infinite;
 }
 
 [number = "36"]{
-    animation: thirtysix 75.4s linear 2.18s reverse forwards;
+    animation: thirtysix 75.4s linear 1.18s reverse forwards infinite;
 }
 
 [number = "37"]{
-    animation: thirtyseven 75.4s linear 30.26s reverse forwards;
+    animation: thirtyseven 75.4s linear 15.26s reverse forwards infinite;
 }
 
 [number = "38"]{
-    animation: thirtyeight 75.4s linear 64.59s reverse forwards;
+    animation: thirtyeight 75.4s linear 32.59s reverse forwards infinite;
 }
 
 [number = "39"]{
-    animation: thirtynine 75.4s linear 75.46s reverse forwards;
+    animation: thirtynine 75.4s linear 37.46s reverse forwards infinite;
 }
 
 [number = "40"]{
-    animation: forty 75.4s linear 27.02s reverse forwards;
+    animation: forty 75.4s linear 14.02s reverse forwards infinite;
 }
 
 [number = "41"]{
-    animation: fortyone 75.4s linear 61.31s reverse forwards;
+    animation: fortyone 75.4s linear 30.31s reverse forwards infinite;
 }
 
 [number = "42"]{
-    animation: fortytwo 75.4s linear 72.54s reverse forwards;
+    animation: fortytwo 75.4s linear 36.54s reverse forwards infinite;
 }
 
 [number = "43"]{
-    animation: fortythree 75.4s linear 28.33s reverse forwards;
+    animation: fortythree 75.4s linear 14.33s reverse forwards infinite;
 }
 
 [number = "44"]{
-    animation: fortyfour 75.4s linear 62.3s reverse forwards;
+    animation: fortyfour 75.4s linear 31.3s reverse forwards infinite;
 }
 
 [number = "45"]{
-    animation: fortyfive 75.4s linear 47.15s reverse forwards;
+    animation: fortyfive 75.4s linear 25.15s reverse forwards infinite;
 }
 
 [number = "46"]{
-    animation: fortysix 75.4s linear 28.53s reverse forwards;
+    animation: fortysix 75.4s linear 14.53s reverse forwards infinite;
 }
 
 [number = "47"]{
-    animation: fortyseven 75.4s linear 40.8s reverse forwards;
+    animation: fortyseven 75.4s linear 20.8s reverse forwards infinite;
 }
 
 [number = "48"]{
-    animation: fortyeight 75.4s linear 61.26s reverse forwards;
+    animation: fortyeight 75.4s linear 31.26s reverse forwards infinite;
 }
 
 [number = "49"]{
-    animation: fortynine 75.4s linear 56.24s reverse forwards;
+    animation: fortynine 75.4s linear 28.24s reverse forwards infinite;
 }
 
 [number = "50"]{
-    animation: fifty 75.4s linear 29.02s reverse forwards;
+    animation: fifty 75.4s linear 14.02s reverse forwards infinite;
 }
 
 [number = "51"]{
-    animation: fiftyone 75.4s linear 4.33s reverse forwards;
+    animation: fiftyone 75.4s linear 2.33s reverse forwards infinite;
 }
 
 [number = "52"]{
-    animation: fiftytwo 75.4s linear 59.01s reverse forwards;
+    animation: fiftytwo 75.4s linear 29.01s reverse forwards infinite;
 }
 
 [number = "53"]{
-    animation: fiftythree 75.4s linear 23.52s reverse forwards;
+    animation: fiftythree 75.4s linear 12.52s reverse forwards infinite;
 }
 
 [number = "54"]{
-    animation: fiftyfour 75.4s linear 52.26s reverse forwards;
+    animation: fiftyfour 75.4s linear 26.26s reverse forwards infinite;
 }
 
 [number = "55"]{
-    animation: fiftyfive 75.4s linear 37.12s reverse forwards;
+    animation: fiftyfive 75.4s linear 38.12s reverse forwards infinite;
 }
 
 [number = "56"]{
-    animation: fiftysix 75.4s linear 26.51s reverse forwards;
+    animation: fiftysix 75.4s linear 13.51s reverse forwards infinite;
 }
 
 [number = "57"]{
-    animation: fiftyseven 75.4s linear 27.15s reverse forwards;
+    animation: fiftyseven 75.4s linear 14.15s reverse forwards infinite;
 }
 
 [number = "58"]{
-    animation: fiftyeight 75.4s linear 34.55s reverse forwards;
+    animation: fiftyeight 75.4s linear 16.55s reverse forwards infinite;
 }
 
 [number = "59"]{
-    animation: fiftynine 75.4s linear 22.09s reverse forwards;
+    animation: fiftynine 75.4s linear 11.09s reverse forwards infinite;
 }
 
 [number = "60"]{
-    animation: sixty 75.4s linear 8.1s reverse forwards;
+    animation: sixty 75.4s linear 4.1s reverse forwards infinite;
 }
 
 [number = "61"]{
-    animation: sixtyone 75.4s linear 28.11s reverse forwards;
+    animation: sixtyone 75.4s linear 14.11s reverse forwards infinite;
 }
 
 [number = "62"]{
-    animation: sixtytwo 75.4s linear 25.54s reverse forwards;
+    animation: sixtytwo 75.4s linear 13.54s reverse forwards infinite;
 }
 
 [number = "63"]{
-    animation: sixtythree 75.4s linear 30.48s reverse forwards;
+    animation: sixtythree 75.4s linear 15.48s reverse forwards infinite;
 }
 
 [number = "64"]{
-    animation: sixtyfour 75.4s linear 22.08s reverse forwards;
+    animation: sixtyfour 75.4s linear 11.08s reverse forwards infinite;
 }
 
 [number = "65"]{
-    animation: sixtyfive 75.4s linear 15.55s reverse forwards;
+    animation: sixtyfive 75.4s linear 8.55s reverse forwards infinite;
 }
 
 [number = "66"]{
-    animation: sixtysix 75.4s linear 26.53s reverse forwards;
+    animation: sixtysix 75.4s linear 13.53s reverse forwards infinite;
 }
 
 [number = "67"]{
-    animation: sixtyseven 75.4s linear 31.12s reverse forwards;
+    animation: sixtyseven 75.4s linear 15.12s reverse forwards infinite;
 }
 
 [number = "68"]{
-    animation: sixtyeight 75.4s linear 62.28s reverse forwards;
+    animation: sixtyeight 75.4s linear 31.28s reverse forwards infinite;
 }
 
 [number = "69"]{
-    animation: sixtynine 75.4s linear 46.21s reverse forwards;
+    animation: sixtynine 75.4s linear 24.21s reverse forwards infinite;
 }
 
 [number = "70"]{
-    animation: seventy 75.4s linear 39.38s reverse forwards;
+    animation: seventy 75.4s linear 19.38s reverse forwards infinite;
 }
 
 [number = "71"]{
-    animation: seventyone 75.4s linear 2.08s reverse forwards;
+    animation: seventyone 75.4s linear 1.08s reverse forwards infinite;
 }
 
 [number = "72"]{
-    animation: seventytwo 75.4s linear 4.31s reverse forwards;
+    animation: seventytwo 75.4s linear 2.31s reverse forwards infinite;
 }
 
 [number = "73"]{
-    animation: seventythree 75.4s linear 35.25s reverse forwards;
+    animation: seventythree 75.4s linear 16.25s reverse forwards infinite;
 }
 
 [number = "74"]{
-    animation: seventyfour 75.4s linear 61.57s reverse forwards;
+    animation: seventyfour 75.4s linear 31.57s reverse forwards infinite;
 }
 
 [number = "75"]{
-    animation: seventyfive 75.4s linear 48.42s reverse forwards;
+    animation: seventyfive 75.4s linear 24.42s reverse forwards infinite;
 }
 
 [number = "76"]{
-    animation: seventysix 75.4s linear 27.5s reverse forwards;
+    animation: seventysix 75.4s linear 14.5s reverse forwards infinite;
 }
 
 [number = "77"]{
-    animation: seventyseven 75.4s linear 24.18s reverse forwards;
+    animation: seventyseven 75.4s linear 12.18s reverse forwards infinite;
 }
 
 [number = "78"]{
-    animation: seventyeight 75.4s linear 15.59s reverse forwards;
+    animation: seventyeight 75.4s linear 8.59s reverse forwards infinite;
 }
 
 [number = "79"]{
-    animation: seventynine 75.4s linear 13.16s reverse forwards;
+    animation: seventynine 75.4s linear 6.16s reverse forwards infinite;
 }
 
 [number = "80"]{
-    animation: eighty 75.4s linear 36.1s reverse forwards;
+    animation: eighty 75.4s linear 18.1s reverse forwards infinite;
 }
 
 [number = "81"]{
-    animation: eightyone 75.4s linear 43.16s reverse forwards;
+    animation: eightyone 75.4s linear 21.16s reverse forwards infinite;
 }
 
 [number = "82"]{
-    animation: eightytwo 75.4s linear 11.36s reverse forwards;
+    animation: eightytwo 75.4s linear 6.36s reverse forwards infinite;
 }
 
 [number = "83"]{
-    animation: eightythree 75.4s linear 6.18s reverse forwards;
+    animation: eightythree 75.4s linear 3.18s reverse forwards infinite;
 }
 
 [number = "84"]{
-    animation: eightyfour 75.4s linear 67.19s reverse forwards;
+    animation: eightyfour 75.4s linear 34.19s reverse forwards infinite;
 }
 
 [number = "85"]{
-    animation: eightyfive 75.4s linear 34.41s reverse forwards;
+    animation: eightyfive 75.4s linear 16.41s reverse forwards infinite;
 }
 
 [number = "86"]{
-    animation: eightysix 75.4s linear 71.16s reverse forwards;
+    animation: eightysix 75.4s linear 35.16s reverse forwards infinite;
 }
 
 [number = "87"]{
-    animation: eightyseven 75.4s linear 59.56s reverse forwards;
+    animation: eightyseven 75.4s linear 29.56s reverse forwards infinite;
 }
 
 [number = "88"]{
-    animation: eightyeight 75.4s linear 21.5s reverse forwards;
+    animation: eightyeight 75.4s linear 10.5s reverse forwards infinite;
 }
 
 [number = "89"]{
-    animation: eightynine 75.4s linear 47.32s reverse forwards;
+    animation: eightynine 75.4s linear 24.32s reverse forwards infinite;
 }
 
 [number = "90"]{
-    animation: ninety 75.4s linear 46.49s reverse forwards;
+    animation: ninety 75.4s linear 23.49s reverse forwards infinite;
 }
 
 [number = "91"]{
-    animation: ninetyone 75.4s linear 74.1s reverse forwards;
+    animation: ninetyone 75.4s linear 37.1s reverse forwards infinite;
 }
 
 [number = "92"]{
-    animation: ninetytwo 75.4s linear 29.05s reverse forwards;
+    animation: ninetytwo 75.4s linear 14.05s reverse forwards infinite;
 }
 
 [number = "93"]{
-    animation: ninetythree 75.4s linear 55.56s reverse forwards;
+    animation: ninetythree 75.4s linear 27.56s reverse forwards infinite;
 }
 
 [number = "94"]{
-    animation: ninetyfour 75.4s linear 37.48s reverse forwards;
+    animation: ninetyfour 75.4s linear 19.48s reverse forwards infinite;
 }
 
 [number = "95"]{
-    animation: ninetyfive 75.4s linear 5.33s reverse forwards;
+    animation: ninetyfive 75.4s linear 3.33s reverse forwards infinite;
 }
 
 [number = "96"]{
-    animation: ninetysix 75.4s linear 25.46s reverse forwards;
+    animation: ninetysix 75.4s linear 12.46s reverse forwards infinite;
 }
 
 [number = "97"]{
-    animation: ninetyseven 75.4s linear 35.43s reverse forwards;
+    animation: ninetyseven 75.4s linear 16.43s reverse forwards infinite;
 }
 
 [number = "98"]{
-    animation: ninetyeight 75.4s linear 1.24s reverse forwards;
+    animation: ninetyeight 75.4s linear 1.24s reverse forwards infinite;
 }
 
 [number = "99"]{
-    animation: ninetynine 75.4s linear 16.49s reverse forwards;
+    animation: ninetynine 75.4s linear 8.49s reverse forwards infinite;
 }
 
 @keyframes ninetynine{
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(9000px, 600px);
 
@@ -432,8 +435,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(2060px, -600px);
 
@@ -450,8 +456,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(2660px, -600px);
 
@@ -468,8 +477,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(3660px, -600px);
 
@@ -486,8 +498,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(6660px, -600px);
 
@@ -504,8 +519,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(4660px, -600px);
 
@@ -522,8 +540,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(1660px, -600px);
 
@@ -540,8 +561,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-260px, 600px);
 
@@ -558,8 +582,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-405px, 600px);
 
@@ -576,8 +603,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-305px, 600px);
 
@@ -594,8 +624,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-355px, 600px);
 
@@ -612,8 +645,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-215px, 600px);
 
@@ -630,8 +666,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(20px, 600px);
 
@@ -648,8 +687,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-175px, 600px);
 
@@ -666,8 +708,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-20px, 600px);
 
@@ -684,8 +729,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-135px, 600px);
 
@@ -702,8 +750,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-95px, 600px);
 
@@ -720,8 +771,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-60px, 600px);
 
@@ -738,8 +792,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-1380px, 600px);
 
@@ -756,8 +813,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-1180px, 600px);
 
@@ -774,8 +834,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-1005px, 600px);
 
@@ -792,8 +855,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-1650px, 600px);
 
@@ -810,8 +876,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-2075px, 600px);
 
@@ -828,8 +897,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-675px, 600px);
 
@@ -846,8 +918,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-600px, 600px);
 
@@ -864,8 +939,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-530px, 600px);
 
@@ -882,8 +960,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-765px, 600px);
 
@@ -900,8 +981,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-465px, 600px);
 
@@ -918,8 +1002,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-875px, 600px);
 
@@ -936,8 +1023,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(215px, 600px);
 
@@ -954,8 +1044,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(55px, 600px);
 
@@ -972,8 +1065,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(1190px, 600px);
 
@@ -990,8 +1086,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(765px, 600px);
 
@@ -1008,8 +1107,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(885px, 600px);
 
@@ -1026,8 +1128,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(1395px, 600px);
 
@@ -1044,8 +1149,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(1015px, 600px);
 
@@ -1062,8 +1170,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(5575px, 600px);
 
@@ -1080,8 +1191,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(3675px, 600px);
 
@@ -1098,8 +1212,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(1675px, 600px);
 
@@ -1116,8 +1233,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(2075px, 600px);
 
@@ -1134,8 +1254,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(2675px, 600px);
 
@@ -1152,8 +1275,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(675px, 600px);
 
@@ -1170,8 +1296,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-2675px, 600px);
 
@@ -1188,8 +1317,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(175px, 600px);
 
@@ -1206,8 +1338,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(135px, 600px);
 
@@ -1224,8 +1359,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(95px, 600px);
 
@@ -1242,8 +1380,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(260px, 600px);
 
@@ -1260,8 +1401,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(530px, 600px);
 
@@ -1278,8 +1422,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(595px, 600px);
 
@@ -1296,8 +1443,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(465px, 600px);
 
@@ -1314,8 +1464,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(355px, 600px);
 
@@ -1332,8 +1485,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(310px, 600px);
 
@@ -1350,8 +1506,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(410px, 600px);
 
@@ -1368,8 +1527,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-310px, -600px);
 
@@ -1386,8 +1548,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(135px, -600px);
 
@@ -1404,8 +1569,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(95px, -600px);
 
@@ -1422,8 +1590,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-135px, -600px);
 
@@ -1440,8 +1611,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(215px, -600px);
 
@@ -1458,8 +1632,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(260px, -600px);
 
@@ -1476,8 +1653,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-60px, -600px);
 
@@ -1494,8 +1674,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-100px, -600px);
 
@@ -1512,8 +1695,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-20px, -600px);
 
@@ -1530,8 +1716,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(15px, -600px);
 
@@ -1548,8 +1737,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(55px, -600px);
 
@@ -1566,8 +1758,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(180px, -600px);
 
@@ -1584,8 +1779,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(880px, -600px);
 
@@ -1602,8 +1800,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(780px, -600px);
 
@@ -1620,8 +1821,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(685px, -600px);
 
@@ -1638,8 +1842,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(1180px, -600px);
 
@@ -1656,8 +1863,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(310px, -600px);
 
@@ -1674,8 +1884,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(1015px, -600px);
 
@@ -1692,8 +1905,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(355px, -600px);
 
@@ -1710,8 +1926,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(410px, -600px);
 
@@ -1728,8 +1947,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(470px, -600px);
 
@@ -1746,8 +1968,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(535px, -600px);
 
@@ -1764,8 +1989,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(605px, -600px);
 
@@ -1782,8 +2010,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-605px, -600px);
 
@@ -1800,8 +2031,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-2060px, -600px);
 
@@ -1818,8 +2052,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-1660px, -600px);
 
@@ -1836,8 +2073,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-1160px, -600px);
 
@@ -1854,8 +2094,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-2670px, -600px);
 
@@ -1872,8 +2115,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-1010px, -600px);
 
@@ -1890,8 +2136,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-1395px, -600px);
 
@@ -1908,8 +2157,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-18505px, 600px);
 
@@ -1926,8 +2178,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-6505px, 600px);
 
@@ -1944,8 +2199,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-3705px, -600px);
 
@@ -1962,8 +2220,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-16285px, -600px);
 
@@ -1980,8 +2241,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-2885px, -600px);
 
@@ -1998,8 +2262,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-770px, -600px);
 
@@ -2016,8 +2283,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-355px, -600px);
 
@@ -2034,8 +2304,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(1385px, -600px);
 
@@ -2052,8 +2325,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-885px, -600px);
 
@@ -2070,8 +2346,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-410px, -600px);
 
@@ -2088,8 +2367,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-260px, -600px);
 
@@ -2106,8 +2388,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-215px, -600px);
 
@@ -2124,8 +2409,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-465px, -600px);
 
@@ -2142,8 +2430,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-680px, -600px);
 
@@ -2160,8 +2451,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-175px, -600px);
 
@@ -2178,8 +2472,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-530px, -600px);
 
@@ -2196,8 +2493,11 @@
     0%{
         transform: translate(0px, 0px);
 
+    }50%{
+        transform: translate(0px, 0px);
+
     }
-    1%{
+    51%{
         
         transform: translate(-3760px, 600px);
     }
@@ -2208,37 +2508,3 @@
         transform: translate(0px, 0px);
     }
 }
-
-/* @keyframes zero{
-    0%{
-        transform: translate(0px, 0px);
-
-    }
-    1%{
-        
-    }
-    99%{
-        opacity: 1;
-    }
-    1%{
-        transform: translate(0px, 0px);
-    }
-    89%{
-        
-    }
-    0%{
-        transform: translate(0px, 0px);
-
-    }
-    1%{
-        
-    }
-    99%{
-        transform: translate(-3760px, 600px);
-        opacity: 1;
-    }
-    100%{
-        transform: translate(0px, 0px);
-        opacity: 1;
-    }
-} */
