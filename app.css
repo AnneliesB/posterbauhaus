@@ -4,31 +4,7 @@
 }
 
 .pieces{
-    transform-origin: 50%{
-        opacity: 1;
-    }
-    1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
-    }
-    3%{
-        opacity: 1;
-    }99% 50%{
-        opacity: 1;
-    }
-    1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
-    }
-    3%{
-        opacity: 1;
-    }99%;
+       transform-origin: 50% 50%;
     animation: appear;
 }
 
