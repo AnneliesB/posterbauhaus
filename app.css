@@ -10,422 +10,417 @@
 
 [number = "0"] 
 {
-    animation: zero 75.4s linear 5.1s reverse forwards infinite;
+    animation: zero 75.4s linear 5.1s reverse forwards;
 }
 
 [number = "1"] 
 {
-    animation: one 75.4s linear 7.27s reverse forwards infinite;
+    animation: one 75.4s linear 7.27s reverse forwards;
 }
 
 [number = "2"]{
-   animation: two 75.4s linear 28.1s reverse forwards infinite;
+   animation: two 75.4s linear 28.1s reverse forwards;
 }
 
 [number = "3"]{
-   animation: three 75.4s linear 37.12s reverse forwards infinite;
+   animation: three 75.4s linear 37.12s reverse forwards;
 } 
 
 [number = "4"]{
-    animation: four 75.4s linear 4.3s reverse forwards infinite;
+    animation: four 75.4s linear 4.3s reverse forwards;
 }
 
 [number = "5"]{
-    animation: five 75.4s linear 33.23s reverse forwards infinite;
+    animation: five 75.4s linear 33.23s reverse forwards;
 }
 
 [number = "6"]{
-    animation: six 75.4s linear 68.21s reverse forwards infinite;
+    animation: six 75.4s linear 68.21s reverse forwards;
 }
 
 [number = "7"]{
-    animation: seven 75.4s linear 71.36s reverse forwards infinite;
+    animation: seven 75.4s linear 71.36s reverse forwards;
 }
 
 [number = "8"]{
-    animation: eight 75.4s linear 51.47s reverse forwards infinite;
+    animation: eight 75.4s linear 51.47s reverse forwards;
 }
 
 [number = "9"]{
-    animation: nine 75.4s linear 6.3s reverse forwards infinite;
+    animation: nine 75.4s linear 6.3s reverse forwards;
 }
 
 [number = "10"]{
-    animation: ten 75.4s linear 40.2s reverse forwards infinite;
+    animation: ten 75.4s linear 40.2s reverse forwards;
 }
 
 [number = "11"]{
-    animation: eleven 75.4s linear 44.48s reverse forwards infinite;
+    animation: eleven 75.4s linear 44.48s reverse forwards;
 }
 
 [number = "12"]{
-    animation: twelve 75.4s linear 26.12s reverse forwards infinite;
+    animation: twelve 75.4s linear 26.12s reverse forwards;
 }
 
 [number = "13"]{
-    animation: thirteen 75.4s linear 67.47s reverse forwards infinite;
+    animation: thirteen 75.4s linear 67.47s reverse forwards;
 }
 
 [number = "14"]{
-    animation: fourteen 75.4s linear 16.42s reverse forwards infinite;
+    animation: fourteen 75.4s linear 16.42s reverse forwards;
 } 
 
 [number = "15"]{
-    animation: fifteen 75.4s linear 7.33s reverse forwards infinite;
+    animation: fifteen 75.4s linear 7.33s reverse forwards;
 }
 
 [number = "16"]{
-    animation: sixteen 75.4s linear 39.17s  reverse forwards infinite;
+    animation: sixteen 75.4s linear 39.17s  reverse forwards;
 } 
 
 [number = "17"]{
-    animation: seventeen 75.4s linear 74.3s reverse forwards infinite;
+    animation: seventeen 75.4s linear 74.3s reverse forwards;
 }
 
 [number = "18"]{
-    animation: eighteen 75.4s linear 23.39s reverse forwards infinite;
+    animation: eighteen 75.4s linear 23.39s reverse forwards;
 }
 
 [number = "19"]{
-    animation: nineteen 75.4s linear 31.18s reverse forwards infinite;
+    animation: nineteen 75.4s linear 31.18s reverse forwards;
 }
 
 [number = "20"]{
-    animation: twenty 75.4s linear 39.46s reverse forwards infinite;
+    animation: twenty 75.4s linear 39.46s reverse forwards;
 }
 
 [number = "21"]{
-    animation: twentyone 75.4s linear 51.31s reverse forwards infinite;
+    animation: twentyone 75.4s linear 51.31s reverse forwards;
 }
 
 [number = "22"]{
-    animation: twentytwo 75.4s linear 12.51s reverse forwards infinite;
+    animation: twentytwo 75.4s linear 12.51s reverse forwards;
 }
 
 [number = "23"]{
-    animation: twentythree 75.4s linear 21.46s reverse forwards infinite;
+    animation: twentythree 75.4s linear 21.46s reverse forwards;
 }
 
 [number = "24"]{
-    animation: twentyfour 75.4s linear 35.3s reverse forwards infinite;
+    animation: twentyfour 75.4s linear 35.3s reverse forwards;
 }
 
 [number = "25"]{
-    animation: twentyfive 75.4s linear 44.16s reverse forwards infinite;
+    animation: twentyfive 75.4s linear 44.16s reverse forwards;
 }
 
 [number = "26"]{
-    animation: twentysix 75.4s linear 70.47s reverse forwards infinite;
+    animation: twentysix 75.4s linear 70.47s reverse forwards;
 }
 
 [number = "27"]{
-    animation: twentyseven 75.4s linear 44.34s reverse forwards infinite;
+    animation: twentyseven 75.4s linear 44.34s reverse forwards;
 }
 
 [number = "28"]{
-    animation: twentyeight 75.4s linear 2.53s reverse forwards infinite;
+    animation: twentyeight 75.4s linear 2.53s reverse forwards;
 }
 
 [number = "29"]{
-    animation: twentynine 75.4s linear 20.31s reverse forwards infinite;
+    animation: twentynine 75.4s linear 20.31s reverse forwards;
 }
 
 [number = "30"]{
-    animation: thirty 75.4s linear 59.2s reverse forwards infinite;
+    animation: thirty 75.4s linear 59.2s reverse forwards;
 }
 
 [number = "31"]{
-    animation: thirtyone 75.4s linear 69.1s reverse forwards infinite;
+    animation: thirtyone 75.4s linear 69.1s reverse forwards;
 }
 
 [number = "32"]{
-    animation: thirtytwo 75.4s linear 70.57s reverse forwards infinite;
+    animation: thirtytwo 75.4s linear 70.57s reverse forwards;
 }
 
 [number = "33"]{
-    animation: thirtythree 75.4s linear 65.31s reverse forwards infinite;
+    animation: thirtythree 75.4s linear 65.31s reverse forwards;
 }
 
 [number = "34"]{
-    animation: thirtyfour 75.4s linear 33.18s reverse forwards infinite;
+    animation: thirtyfour 75.4s linear 33.18s reverse forwards;
 }
 
 [number = "35"]{
-    animation: thirtyfive 75.4s linear 51.08s reverse forwards infinite;
+    animation: thirtyfive 75.4s linear 51.08s reverse forwards;
 }
 
 [number = "36"]{
-    animation: thirtysix 75.4s linear 2.18s reverse forwards infinite;
+    animation: thirtysix 75.4s linear 2.18s reverse forwards;
 }
 
 [number = "37"]{
-    animation: thirtyseven 75.4s linear 30.26s reverse forwards infinite;
+    animation: thirtyseven 75.4s linear 30.26s reverse forwards;
 }
 
 [number = "38"]{
-    animation: thirtyeight 75.4s linear 64.59s reverse forwards infinite;
+    animation: thirtyeight 75.4s linear 64.59s reverse forwards;
 }
 
 [number = "39"]{
-    animation: thirtynine 75.4s linear 75.46s reverse forwards infinite;
+    animation: thirtynine 75.4s linear 75.46s reverse forwards;
 }
 
 [number = "40"]{
-    animation: forty 75.4s linear 27.02s reverse forwards infinite;
+    animation: forty 75.4s linear 27.02s reverse forwards;
 }
 
 [number = "41"]{
-    animation: fortyone 75.4s linear 61.31s reverse forwards infinite;
+    animation: fortyone 75.4s linear 61.31s reverse forwards;
 }
 
 [number = "42"]{
-    animation: fortytwo 75.4s linear 72.54s reverse forwards infinite;
+    animation: fortytwo 75.4s linear 72.54s reverse forwards;
 }
 
 [number = "43"]{
-    animation: fortythree 75.4s linear 28.33s reverse forwards infinite;
+    animation: fortythree 75.4s linear 28.33s reverse forwards;
 }
 
 [number = "44"]{
-    animation: fortyfour 75.4s linear 62.3s reverse forwards infinite;
+    animation: fortyfour 75.4s linear 62.3s reverse forwards;
 }
 
 [number = "45"]{
-    animation: fortyfive 75.4s linear 47.15s reverse forwards infinite;
+    animation: fortyfive 75.4s linear 47.15s reverse forwards;
 }
 
 [number = "46"]{
-    animation: fortysix 75.4s linear 28.53s reverse forwards infinite;
+    animation: fortysix 75.4s linear 28.53s reverse forwards;
 }
 
 [number = "47"]{
-    animation: fortyseven 75.4s linear 40.8s reverse forwards infinite;
+    animation: fortyseven 75.4s linear 40.8s reverse forwards;
 }
 
 [number = "48"]{
-    animation: fortyeight 75.4s linear 61.26s reverse forwards infinite;
+    animation: fortyeight 75.4s linear 61.26s reverse forwards;
 }
 
 [number = "49"]{
-    animation: fortynine 75.4s linear 56.24s reverse forwards infinite;
+    animation: fortynine 75.4s linear 56.24s reverse forwards;
 }
 
 [number = "50"]{
-    animation: fifty 75.4s linear 29.02s reverse forwards infinite;
+    animation: fifty 75.4s linear 29.02s reverse forwards;
 }
 
 [number = "51"]{
-    animation: fiftyone 75.4s linear 4.33s reverse forwards infinite;
+    animation: fiftyone 75.4s linear 4.33s reverse forwards;
 }
 
 [number = "52"]{
-    animation: fiftytwo 75.4s linear 59.01s reverse forwards infinite;
+    animation: fiftytwo 75.4s linear 59.01s reverse forwards;
 }
 
 [number = "53"]{
-    animation: fiftythree 75.4s linear 23.52s reverse forwards infinite;
+    animation: fiftythree 75.4s linear 23.52s reverse forwards;
 }
 
 [number = "54"]{
-    animation: fiftyfour 75.4s linear 52.26s reverse forwards infinite;
+    animation: fiftyfour 75.4s linear 52.26s reverse forwards;
 }
 
 [number = "55"]{
-    animation: fiftyfive 75.4s linear 37.12s reverse forwards infinite;
+    animation: fiftyfive 75.4s linear 37.12s reverse forwards;
 }
 
 [number = "56"]{
-    animation: fiftysix 75.4s linear 26.51s reverse forwards infinite;
+    animation: fiftysix 75.4s linear 26.51s reverse forwards;
 }
 
 [number = "57"]{
-    animation: fiftyseven 75.4s linear 27.15s reverse forwards infinite;
+    animation: fiftyseven 75.4s linear 27.15s reverse forwards;
 }
 
 [number = "58"]{
-    animation: fiftyeight 75.4s linear 34.55s reverse forwards infinite;
+    animation: fiftyeight 75.4s linear 34.55s reverse forwards;
 }
 
 [number = "59"]{
-    animation: fiftynine 75.4s linear 22.09s reverse forwards infinite;
+    animation: fiftynine 75.4s linear 22.09s reverse forwards;
 }
 
 [number = "60"]{
-    animation: sixty 75.4s linear 8.1s reverse forwards infinite;
+    animation: sixty 75.4s linear 8.1s reverse forwards;
 }
 
 [number = "61"]{
-    animation: sixtyone 75.4s linear 28.11s reverse forwards infinite;
+    animation: sixtyone 75.4s linear 28.11s reverse forwards;
 }
 
 [number = "62"]{
-    animation: sixtytwo 75.4s linear 25.54s reverse forwards infinite;
+    animation: sixtytwo 75.4s linear 25.54s reverse forwards;
 }
 
 [number = "63"]{
-    animation: sixtythree 75.4s linear 30.48s reverse forwards infinite;
+    animation: sixtythree 75.4s linear 30.48s reverse forwards;
 }
 
 [number = "64"]{
-    animation: sixtyfour 75.4s linear 22.08s reverse forwards infinite;
+    animation: sixtyfour 75.4s linear 22.08s reverse forwards;
 }
 
 [number = "65"]{
-    animation: sixtyfive 75.4s linear 15.55s reverse forwards infinite;
+    animation: sixtyfive 75.4s linear 15.55s reverse forwards;
 }
 
 [number = "66"]{
-    animation: sixtysix 75.4s linear 26.53s reverse forwards infinite;
+    animation: sixtysix 75.4s linear 26.53s reverse forwards;
 }
 
 [number = "67"]{
-    animation: sixtyseven 75.4s linear 31.12s reverse forwards infinite;
+    animation: sixtyseven 75.4s linear 31.12s reverse forwards;
 }
 
 [number = "68"]{
-    animation: sixtyeight 75.4s linear 62.28s reverse forwards infinite;
+    animation: sixtyeight 75.4s linear 62.28s reverse forwards;
 }
 
 [number = "69"]{
-    animation: sixtynine 75.4s linear 46.21s reverse forwards infinite;
+    animation: sixtynine 75.4s linear 46.21s reverse forwards;
 }
 
 [number = "70"]{
-    animation: seventy 75.4s linear 39.38s reverse forwards infinite;
+    animation: seventy 75.4s linear 39.38s reverse forwards;
 }
 
 [number = "71"]{
-    animation: seventyone 75.4s linear 2.08s reverse forwards infinite;
+    animation: seventyone 75.4s linear 2.08s reverse forwards;
 }
 
 [number = "72"]{
-    animation: seventytwo 75.4s linear 4.31s reverse forwards infinite;
+    animation: seventytwo 75.4s linear 4.31s reverse forwards;
 }
 
 [number = "73"]{
-    animation: seventythree 75.4s linear 35.25s reverse forwards infinite;
+    animation: seventythree 75.4s linear 35.25s reverse forwards;
 }
 
 [number = "74"]{
-    animation: seventyfour 75.4s linear 61.57s reverse forwards infinite;
+    animation: seventyfour 75.4s linear 61.57s reverse forwards;
 }
 
 [number = "75"]{
-    animation: seventyfive 75.4s linear 48.42s reverse forwards infinite;
+    animation: seventyfive 75.4s linear 48.42s reverse forwards;
 }
 
 [number = "76"]{
-    animation: seventysix 75.4s linear 27.5s reverse forwards infinite;
+    animation: seventysix 75.4s linear 27.5s reverse forwards;
 }
 
 [number = "77"]{
-    animation: seventyseven 75.4s linear 24.18s reverse forwards infinite;
+    animation: seventyseven 75.4s linear 24.18s reverse forwards;
 }
 
 [number = "78"]{
-    animation: seventyeight 75.4s linear 15.59s reverse forwards infinite;
+    animation: seventyeight 75.4s linear 15.59s reverse forwards;
 }
 
 [number = "79"]{
-    animation: seventynine 75.4s linear 13.16s reverse forwards infinite;
+    animation: seventynine 75.4s linear 13.16s reverse forwards;
 }
 
 [number = "80"]{
-    animation: eighty 75.4s linear 36.1s reverse forwards infinite;
+    animation: eighty 75.4s linear 36.1s reverse forwards;
 }
 
 [number = "81"]{
-    animation: eightyone 75.4s linear 43.16s reverse forwards infinite;
+    animation: eightyone 75.4s linear 43.16s reverse forwards;
 }
 
 [number = "82"]{
-    animation: eightytwo 75.4s linear 11.36s reverse forwards infinite;
+    animation: eightytwo 75.4s linear 11.36s reverse forwards;
 }
 
 [number = "83"]{
-    animation: eightythree 75.4s linear 6.18s reverse forwards infinite;
+    animation: eightythree 75.4s linear 6.18s reverse forwards;
 }
 
 [number = "84"]{
-    animation: eightyfour 75.4s linear 67.19s reverse forwards infinite;
+    animation: eightyfour 75.4s linear 67.19s reverse forwards;
 }
 
 [number = "85"]{
-    animation: eightyfive 75.4s linear 34.41s reverse forwards infinite;
+    animation: eightyfive 75.4s linear 34.41s reverse forwards;
 }
 
 [number = "86"]{
-    animation: eightysix 75.4s linear 71.16s reverse forwards infinite;
+    animation: eightysix 75.4s linear 71.16s reverse forwards;
 }
 
 [number = "87"]{
-    animation: eightyseven 75.4s linear 59.56s reverse forwards infinite;
+    animation: eightyseven 75.4s linear 59.56s reverse forwards;
 }
 
 [number = "88"]{
-    animation: eightyeight 75.4s linear 21.5s reverse forwards infinite;
+    animation: eightyeight 75.4s linear 21.5s reverse forwards;
 }
 
 [number = "89"]{
-    animation: eightynine 75.4s linear 47.32s reverse forwards infinite;
+    animation: eightynine 75.4s linear 47.32s reverse forwards;
 }
 
 [number = "90"]{
-    animation: ninety 75.4s linear 46.49s reverse forwards infinite;
+    animation: ninety 75.4s linear 46.49s reverse forwards;
 }
 
 [number = "91"]{
-    animation: ninetyone 75.4s linear 74.1s reverse forwards infinite;
+    animation: ninetyone 75.4s linear 74.1s reverse forwards;
 }
 
 [number = "92"]{
-    animation: ninetytwo 75.4s linear 29.05s reverse forwards infinite;
+    animation: ninetytwo 75.4s linear 29.05s reverse forwards;
 }
 
 [number = "93"]{
-    animation: ninetythree 75.4s linear 55.56s reverse forwards infinite;
+    animation: ninetythree 75.4s linear 55.56s reverse forwards;
 }
 
 [number = "94"]{
-    animation: ninetyfour 75.4s linear 37.48s reverse forwards infinite;
+    animation: ninetyfour 75.4s linear 37.48s reverse forwards;
 }
 
 [number = "95"]{
-    animation: ninetyfive 75.4s linear 5.33s reverse forwards infinite;
+    animation: ninetyfive 75.4s linear 5.33s reverse forwards;
 }
 
 [number = "96"]{
-    animation: ninetysix 75.4s linear 25.46s reverse forwards infinite;
+    animation: ninetysix 75.4s linear 25.46s reverse forwards;
 }
 
 [number = "97"]{
-    animation: ninetyseven 75.4s linear 35.43s reverse forwards infinite;
+    animation: ninetyseven 75.4s linear 35.43s reverse forwards;
 }
 
 [number = "98"]{
-    animation: ninetyeight 75.4s linear 1.24s reverse forwards infinite;
+    animation: ninetyeight 75.4s linear 1.24s reverse forwards;
 }
 
 [number = "99"]{
-    animation: ninetynine 75.4s linear 16.49s reverse forwards infinite;
+    animation: ninetynine 75.4s linear 16.49s reverse forwards;
 }
 
 @keyframes ninetynine{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(9000px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(9000px, 600px);
     }
     100%{
@@ -435,20 +430,15 @@
 
 @keyframes ninetyeight{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(2060px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(2060px, -600px);
     }
     100%{
@@ -458,20 +448,15 @@
 
 @keyframes ninetyseven{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(2660px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(2660px, -600px);
     }
     100%{
@@ -481,20 +466,15 @@
 
 @keyframes ninetysix{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(3660px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(3660px, -600px);
     }
     100%{
@@ -504,20 +484,15 @@
 
 @keyframes ninetyfive{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(6660px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(6660px, -600px);
     }
     100%{
@@ -527,20 +502,15 @@
 
 @keyframes ninetyfour{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(4660px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(4660px, -600px);
     }
     100%{
@@ -550,20 +520,15 @@
 
 @keyframes ninetythree{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(1660px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(1660px, -600px);
     }
     100%{
@@ -573,20 +538,15 @@
 
 @keyframes ninetytwo{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-260px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-260px, 600px);
     }
     100%{
@@ -596,20 +556,15 @@
 
 @keyframes ninetyone{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-405px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-405px, 600px);
     }
     100%{
@@ -619,20 +574,15 @@
 
 @keyframes ninety{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-305px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-305px, 600px);
     }
     100%{
@@ -642,20 +592,15 @@
 
 @keyframes eightynine{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-355px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-355px, 600px);
     }
     100%{
@@ -665,20 +610,15 @@
 
 @keyframes eightyeight{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-215px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-215px, 600px);
     }
     100%{
@@ -688,20 +628,15 @@
 
 @keyframes eightyseven{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(20px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(20px, 600px);
     }
     100%{
@@ -711,20 +646,15 @@
 
 @keyframes eightysix{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-175px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-175px, 600px);
     }
     100%{
@@ -734,20 +664,15 @@
 
 @keyframes eightyfive{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-20px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-20px, 600px);
     }
     100%{
@@ -757,20 +682,15 @@
 
 @keyframes eightyfour{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-135px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-135px, 600px);
     }
     100%{
@@ -780,20 +700,15 @@
 
 @keyframes eightythree{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-95px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-95px, 600px);
     }
     100%{
@@ -803,20 +718,15 @@
 
 @keyframes eightytwo{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-60px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-60px, 600px);
     }
     100%{
@@ -826,20 +736,15 @@
 
 @keyframes eightyone{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-1380px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-1380px, 600px);
     }
     100%{
@@ -849,20 +754,15 @@
 
 @keyframes eighty{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-1180px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-1180px, 600px);
     }
     100%{
@@ -872,20 +772,15 @@
 
 @keyframes seventynine{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-1005px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-1005px, 600px);
     }
     100%{
@@ -895,20 +790,15 @@
 
 @keyframes seventyeight{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-1650px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-1650px, 600px);
     }
     100%{
@@ -918,20 +808,15 @@
 
 @keyframes seventyseven{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-2075px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-2075px, 600px);
     }
     100%{
@@ -941,20 +826,15 @@
 
 @keyframes seventysix{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-675px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-675px, 600px);
     }
     100%{
@@ -964,20 +844,15 @@
 
 @keyframes seventyfive{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-600px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-600px, 600px);
     }
     100%{
@@ -987,20 +862,15 @@
 
 @keyframes seventyfour{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-530px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-530px, 600px);
     }
     100%{
@@ -1010,20 +880,15 @@
 
 @keyframes seventythree{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-765px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-765px, 600px);
     }
     100%{
@@ -1033,20 +898,15 @@
 
 @keyframes seventytwo{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-465px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-465px, 600px);
     }
     100%{
@@ -1056,20 +916,15 @@
 
 @keyframes seventyone{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-875px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-875px, 600px);
     }
     100%{
@@ -1079,20 +934,15 @@
 
 @keyframes seventy{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(215px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(215px, 600px);
     }
     100%{
@@ -1102,20 +952,15 @@
 
 @keyframes sixtynine{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(55px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(55px, 600px);
     }
     100%{
@@ -1125,20 +970,15 @@
 
 @keyframes sixtyeight{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(1190px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(1190px, 600px);
     }
     100%{
@@ -1148,20 +988,15 @@
 
 @keyframes sixtyseven{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(765px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(765px, 600px);
     }
     100%{
@@ -1171,20 +1006,15 @@
 
 @keyframes sixtysix{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(885px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(885px, 600px);
     }
     100%{
@@ -1194,20 +1024,15 @@
 
 @keyframes sixtyfive{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(1395px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(1395px, 600px);
     }
     100%{
@@ -1217,20 +1042,15 @@
 
 @keyframes sixtyfour{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(1015px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(1015px, 600px);
     }
     100%{
@@ -1240,20 +1060,15 @@
 
 @keyframes sixtythree{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(5575px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(5575px, 600px);
     }
     100%{
@@ -1263,20 +1078,15 @@
 
 @keyframes sixtytwo{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(3675px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(3675px, 600px);
     }
     100%{
@@ -1286,20 +1096,15 @@
 
 @keyframes sixtyone{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(1675px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(1675px, 600px);
     }
     100%{
@@ -1309,20 +1114,15 @@
 
 @keyframes sixty{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(2075px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(2075px, 600px);
     }
     100%{
@@ -1332,20 +1132,15 @@
 
 @keyframes fiftynine{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(2675px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(2675px, 600px);
     }
     100%{
@@ -1355,20 +1150,15 @@
 
 @keyframes fiftyeight{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(675px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(675px, 600px);
     }
     100%{
@@ -1378,20 +1168,15 @@
 
 @keyframes fiftyseven{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-2675px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-2675px, 600px);
     }
     100%{
@@ -1401,20 +1186,15 @@
 
 @keyframes fiftysix{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(175px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(175px, 600px);
     }
     100%{
@@ -1424,20 +1204,15 @@
 
 @keyframes fiftyfive{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(135px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(135px, 600px);
     }
     100%{
@@ -1447,20 +1222,15 @@
 
 @keyframes fiftyfour{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(95px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(95px, 600px);
     }
     100%{
@@ -1470,20 +1240,15 @@
 
 @keyframes fiftythree{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(260px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(260px, 600px);
     }
     100%{
@@ -1493,20 +1258,15 @@
 
 @keyframes fiftytwo{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(530px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(530px, 600px);
     }
     100%{
@@ -1516,20 +1276,15 @@
 
 @keyframes fiftyone{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(595px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(595px, 600px);
     }
     100%{
@@ -1539,20 +1294,15 @@
 
 @keyframes fifty{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(465px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(465px, 600px);
     }
     100%{
@@ -1562,20 +1312,15 @@
 
 @keyframes fortynine{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(355px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(355px, 600px);
     }
     100%{
@@ -1585,20 +1330,15 @@
 
 @keyframes fortyeight{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(310px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(310px, 600px);
     }
     100%{
@@ -1608,20 +1348,15 @@
 
 @keyframes fortyseven{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(410px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(410px, 600px);
     }
     100%{
@@ -1631,20 +1366,15 @@
 
 @keyframes fortysix{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-310px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-310px, -600px);
     }
     100%{
@@ -1654,20 +1384,15 @@
 
 @keyframes fortyfive{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(135px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(135px, -600px);
     }
     100%{
@@ -1677,20 +1402,15 @@
 
 @keyframes fortyfour{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(95px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(95px, -600px);
     }
     100%{
@@ -1700,20 +1420,15 @@
 
 @keyframes fortythree{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-135px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-135px, -600px);
     }
     100%{
@@ -1723,20 +1438,15 @@
 
 @keyframes fortytwo{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(215px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(215px, -600px);
     }
     100%{
@@ -1746,20 +1456,15 @@
 
 @keyframes fortyone{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(260px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(260px, -600px);
     }
     100%{
@@ -1769,20 +1474,15 @@
 
 @keyframes forty{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-60px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-60px, -600px);
     }
     100%{
@@ -1792,20 +1492,15 @@
 
 @keyframes thirtynine{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-100px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-100px, -600px);
     }
     100%{
@@ -1815,20 +1510,15 @@
 
 @keyframes thirtyeight{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-20px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-20px, -600px);
     }
     100%{
@@ -1838,20 +1528,15 @@
 
 @keyframes thirtyseven{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(15px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(15px, -600px);
     }
     100%{
@@ -1861,20 +1546,15 @@
 
 @keyframes thirtysix{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(55px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(55px, -600px);
     }
     100%{
@@ -1884,20 +1564,15 @@
 
 @keyframes thirtyfive{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(180px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(180px, -600px);
     }
     100%{
@@ -1907,20 +1582,15 @@
 
 @keyframes thirtyfour{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(880px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(880px, -600px);
     }
     100%{
@@ -1930,20 +1600,15 @@
 
 @keyframes thirtythree{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(780px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(780px, -600px);
     }
     100%{
@@ -1953,20 +1618,15 @@
 
 @keyframes thirtytwo{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(685px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(685px, -600px);
     }
     100%{
@@ -1976,20 +1636,15 @@
 
 @keyframes thirtyone{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(1180px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(1180px, -600px);
     }
     100%{
@@ -1999,20 +1654,15 @@
 
 @keyframes thirty{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(310px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(310px, -600px);
     }
     100%{
@@ -2022,20 +1672,15 @@
 
 @keyframes twentynine{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(1015px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(1015px, -600px);
     }
     100%{
@@ -2045,20 +1690,15 @@
 
 @keyframes twentyeight{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(355px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(355px, -600px);
     }
     100%{
@@ -2068,20 +1708,15 @@
 
 @keyframes twentyseven{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(410px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(410px, -600px);
     }
     100%{
@@ -2091,20 +1726,15 @@
 
 @keyframes twentysix{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(470px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(470px, -600px);
     }
     100%{
@@ -2114,20 +1744,15 @@
 
 @keyframes twentyfive{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(535px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(535px, -600px);
     }
     100%{
@@ -2137,20 +1762,15 @@
 
 @keyframes twentyfour{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(605px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(605px, -600px);
     }
     100%{
@@ -2160,20 +1780,15 @@
 
 @keyframes twentythree{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-605px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-605px, -600px);
     }
     100%{
@@ -2183,20 +1798,15 @@
 
 @keyframes twentytwo{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-2060px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-2060px, -600px);
     }
     100%{
@@ -2206,20 +1816,15 @@
 
 @keyframes twentyone{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-1660px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-1660px, -600px);
     }
     100%{
@@ -2229,20 +1834,15 @@
 
 @keyframes twenty{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-1160px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-1160px, -600px);
     }
     100%{
@@ -2252,20 +1852,15 @@
 
 @keyframes nineteen{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-2670px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-2670px, -600px);
     }
     100%{
@@ -2275,20 +1870,15 @@
 
 @keyframes eighteen{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-1010px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-1010px, -600px);
     }
     100%{
@@ -2298,20 +1888,15 @@
 
 @keyframes seventeen{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-1395px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-1395px, -600px);
     }
     100%{
@@ -2321,20 +1906,15 @@
 
 @keyframes sixteen{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-18505px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-18505px, 600px);
     }
     100%{
@@ -2344,20 +1924,15 @@
 
 @keyframes fifteen{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-6505px, 600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-6505px, 600px);
     }
     100%{
@@ -2367,20 +1942,15 @@
 
 @keyframes fourteen{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-3705px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-3705px, -600px);
     }
     100%{
@@ -2390,20 +1960,15 @@
 
 @keyframes thirteen{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-16285px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-16285px, -600px);
     }
     100%{
@@ -2413,20 +1978,15 @@
 
 @keyframes twelve{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-2885px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-2885px, -600px);
     }
     100%{
@@ -2436,20 +1996,15 @@
 
 @keyframes eleven{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-770px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-770px, -600px);
     }
     100%{
@@ -2459,20 +2014,15 @@
 
 @keyframes ten{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-355px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-355px, -600px);
     }
     100%{
@@ -2482,20 +2032,15 @@
 
 @keyframes nine{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(1385px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(1385px, -600px);
     }
     100%{
@@ -2505,20 +2050,15 @@
 
 @keyframes eight{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-885px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-885px, -600px);
     }
     100%{
@@ -2528,20 +2068,15 @@
 
 @keyframes seven{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-410px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-410px, -600px);
     }
     100%{
@@ -2551,20 +2086,15 @@
 
 @keyframes six{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-260px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-260px, -600px);
     }
     100%{
@@ -2574,20 +2104,15 @@
 
 @keyframes five{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-215px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-215px, -600px);
     }
     100%{
@@ -2597,20 +2122,15 @@
 
 @keyframes four{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-465px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-465px, -600px);
     }
     100%{
@@ -2620,20 +2140,15 @@
 
 @keyframes three{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-680px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-680px, -600px);
     }
     100%{
@@ -2643,20 +2158,15 @@
 
 @keyframes two{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-175px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-175px, -600px);
     }
     100%{
@@ -2666,20 +2176,15 @@
 
 @keyframes one{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-530px, -600px);
 
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-530px, -600px);
     }
     100%{
@@ -2689,19 +2194,14 @@
 
 @keyframes zero{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
-    }
-    2%{
-        opacity: 0;
+        
         transform: translate(-3760px, 600px);
     }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-3760px, 600px);
     }
     100%{
@@ -2711,39 +2211,29 @@
 
 /* @keyframes zero{
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
+        
     }
-    2%{
-        opacity: 0;
-    }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         opacity: 1;
     }
     1%{
         transform: translate(0px, 0px);
     }
     89%{
-        opacity: 0;
+        
     }
     0%{
-        opacity: 1;
+        transform: translate(0px, 0px);
+
     }
     1%{
-        transform: translate(0px, 0px);
-        opacity: 0;
+        
     }
-    2%{
-        opacity: 0;
-    }
-    3%{
-        opacity: 1;
-    }99%{
+    99%{
         transform: translate(-3760px, 600px);
         opacity: 1;
     }
