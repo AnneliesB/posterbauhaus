@@ -1,1332 +1,3046 @@
-.poster{
-    width: 600px;
-    margin: auto;
+body{
+    background-color: #393939;
+    box-sizing: border-box;
+    border: 0;
 }
 
-.pieces{
+.poster {
+    width: 250px;
+    margin: calc(50vh - 176.97px) auto;
+}
+
+@media(min-width:450px){
+    .poster {
+        width: 400px;
+        margin: calc(50vh - 283px) auto;
+    }
+}
+
+@media(min-width: 600px){
+    .poster {
+        width: 500px;
+        margin: calc(50vh - 283px) auto;
+    }
+}
+
+@media(min-width: 700px){
+    .poster {
+        width: 500px;
+        margin: calc(50vh - 336px) auto;
+    }
+}
+
+svg{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.pieces {
     transform-origin: 50% 50%;
-    animation: appear;
+    /* animation: rotate 20s linear infinite; */
 }
-
-[number = "0"] 
-{
-    fill: red !important;
-    animation: zero 0.4s linear 5.1s reverse forwards, zero 10.4s linear 15.1s forwards;
-}
-
-[number = "1"] 
-{
-    animation: one 0.4s linear 7.27s reverse forwards;
-}
-
-[number = "2"]{
-   animation: two 0.4s linear 28.1s reverse forwards;
-}
-
-[number = "3"]{
-   animation: three 0.4s linear 37.12s reverse forwards;
-} 
-
-[number = "4"]{
-    animation: four 0.4s linear 4.3s reverse forwards;
-}
-
-[number = "5"]{
-    animation: five 0.4s linear 33.23s reverse forwards;
-}
-
-[number = "6"]{
-    animation: six 0.4s linear 68.21s reverse forwards;
-}
-
-[number = "7"]{
-    animation: seven 0.4s linear 71.36s reverse forwards;
-}
-
-[number = "8"]{
-    animation: eight 0.4s linear 51.47s reverse forwards;
-}
-
-[number = "9"]{
-    animation: nine 0.4s linear 6.3s reverse forwards;
-}
-
-[number = "10"]{
-    animation: ten 0.4s linear 40.2s reverse forwards;
-}
-
-[number = "11"]{
-    animation: eleven 0.4s linear 44.48s reverse forwards;
-}
-
-[number = "12"]{
-    animation: twelve 0.4s linear 26.12s reverse forwards;
-}
-
-[number = "13"]{
-    animation: thirteen 0.4s linear 67.47s reverse forwards;
-}
-
-[number = "14"]{
-    animation: fourteen 0.4s linear 16.42s reverse forwards;
-} 
-
-[number = "15"]{
-    animation: fifteen 0.4s linear 7.33s reverse forwards;
-}
-
-[number = "16"]{
-    animation: sixteen 0.4s linear 39.17s  reverse forwards;
-} 
-
-[number = "17"]{
-    animation: seventeen 0.4s linear 74.3s reverse forwards;
-}
-
-[number = "18"]{
-    animation: eighteen 0.4s linear 23.39s reverse forwards;
-}
-
-[number = "19"]{
-    animation: nineteen 0.4s linear 31.18s reverse forwards;
-}
-
-[number = "20"]{
-    animation: twenty 0.4s linear 39.46s reverse forwards;
-}
-
-[number = "21"]{
-    animation: twentyone 0.4s linear 51.31s reverse forwards;
-}
-
-[number = "22"]{
-    animation: twentytwo 0.4s linear 12.51s reverse forwards;
-}
-
-[number = "23"]{
-    animation: twentythree 0.4s linear 21.46s reverse forwards;
-}
-
-[number = "24"]{
-    animation: twentyfour 0.4s linear 35.3s reverse forwards;
-}
-
-[number = "25"]{
-    animation: twentyfive 0.4s linear 44.16s reverse forwards;
-}
-
-[number = "26"]{
-    animation: twentysix 0.4s linear 70.47s reverse forwards;
-}
-
-[number = "27"]{
-    animation: twentyseven 0.4s linear 44.34s reverse forwards;
-}
-
-[number = "28"]{
-    animation: twentyeight 0.4s linear 2.53s reverse forwards;
-}
-
-[number = "29"]{
-    animation: twentynine 0.4s linear 20.31s reverse forwards;
-}
-
-[number = "30"]{
-    animation: thirty 0.4s linear 59.2s reverse forwards;
-}
-
-[number = "31"]{
-    animation: thirtyone 0.4s linear 69.1s reverse forwards;
-}
-
-[number = "32"]{
-    animation: thirtytwo 0.4s linear 70.57s reverse forwards;
-}
-
-[number = "33"]{
-    animation: thirtythree 0.4s linear 65.31s reverse forwards;
-}
-
-[number = "34"]{
-    animation: thirtyfour 0.4s linear 33.18s reverse forwards;
-}
-
-[number = "35"]{
-    animation: thirtyfive 0.4s linear 51.08s reverse forwards;
-}
-
-[number = "36"]{
-    animation: thirtysix 0.4s linear 2.18s reverse forwards;
-}
-
-[number = "37"]{
-    animation: thirtyseven 0.4s linear 30.26s reverse forwards;
-}
-
-[number = "38"]{
-    animation: thirtyeight 0.4s linear 64.59s reverse forwards;
-}
-
-[number = "39"]{
-    animation: thirtynine 0.4s linear 75.46s reverse forwards;
-}
-
-[number = "40"]{
-    animation: forty 0.4s linear 27.02s reverse forwards;
-}
-
-[number = "41"]{
-    animation: fortyone 0.4s linear 61.31s reverse forwards;
-}
-
-[number = "42"]{
-    animation: fortytwo 0.4s linear 72.54s reverse forwards;
-}
-
-[number = "43"]{
-    animation: fortythree 0.4s linear 28.33s reverse forwards;
-}
-
-[number = "44"]{
-    animation: fortyfour 0.4s linear 62.3s reverse forwards;
-}
-
-[number = "45"]{
-    animation: fortyfive 0.4s linear 47.15s reverse forwards;
-}
-
-[number = "46"]{
-    animation: fortysix 0.4s linear 28.53s reverse forwards;
-}
-
-[number = "47"]{
-    animation: fortyseven 0.4s linear 40.8s reverse forwards;
-}
-
-[number = "48"]{
-    animation: fortyeight 0.4s linear 61.26s reverse forwards;
-}
-
-[number = "49"]{
-    animation: fortynine 0.4s linear 56.24s reverse forwards;
-}
-
-[number = "50"]{
-    animation: fifty 0.4s linear 29.02s reverse forwards;
-}
-
-[number = "51"]{
-    animation: fiftyone 0.4s linear 4.33s reverse forwards;
-}
-
-[number = "52"]{
-    animation: fiftytwo 0.4s linear 59.01s reverse forwards;
-}
-
-[number = "53"]{
-    animation: fiftythree 0.4s linear 23.52s reverse forwards;
-}
-
-[number = "54"]{
-    animation: fiftyfour 0.4s linear 52.26s reverse forwards;
-}
-
-[number = "55"]{
-    animation: fiftyfive 0.4s linear 37.12s reverse forwards;
-}
-
-[number = "56"]{
-    animation: fiftysix 0.4s linear 26.51s reverse forwards;
-}
-
-[number = "57"]{
-    animation: fiftyseven 0.4s linear 27.15s reverse forwards;
-}
-
-[number = "58"]{
-    animation: fiftyeight 0.4s linear 34.55s reverse forwards;
-}
-
-[number = "59"]{
-    animation: fiftynine 0.4s linear 22.09s reverse forwards;
-}
-
-[number = "60"]{
-    animation: sixty 0.4s linear 8.1s reverse forwards;
-}
-
-[number = "61"]{
-    animation: sixtyone 0.4s linear 28.11s reverse forwards;
-}
-
-[number = "62"]{
-    animation: sixtytwo 0.4s linear 25.54s reverse forwards;
-}
-
-[number = "63"]{
-    animation: sixtythree 0.4s linear 30.48s reverse forwards;
-}
-
-[number = "64"]{
-    animation: sixtyfour 0.4s linear 22.08s reverse forwards;
-}
-
-[number = "65"]{
-    animation: sixtyfive 0.4s linear 15.55s reverse forwards;
-}
-
-[number = "66"]{
-    animation: sixtysix 0.4s linear 26.53s reverse forwards;
-}
-
-[number = "67"]{
-    animation: sixtyseven 0.4s linear 31.12s reverse forwards;
-}
-
-[number = "68"]{
-    animation: sixtyeight 0.4s linear 62.28s reverse forwards;
-}
-
-[number = "69"]{
-    animation: sixtynine 0.4s linear 46.21s reverse forwards;
-}
-
-[number = "70"]{
-    animation: seventy 0.4s linear 39.38s reverse forwards;
-}
-
-[number = "71"]{
-    animation: seventyone 0.4s linear 2.08s reverse forwards;
-}
-
-[number = "72"]{
-    animation: seventytwo 0.4s linear 4.31s reverse forwards;
-}
-
-[number = "73"]{
-    animation: seventythree 0.4s linear 35.25s reverse forwards;
-}
-
-[number = "74"]{
-    animation: seventyfour 0.4s linear 61.57s reverse forwards;
-}
-
-[number = "75"]{
-    animation: seventyfive 0.4s linear 48.42s reverse forwards;
-}
-
-[number = "76"]{
-    animation: seventysix 0.4s linear 27.5s reverse forwards;
-}
-
-[number = "77"]{
-    animation: seventyseven 0.4s linear 24.18s reverse forwards;
-}
-
-[number = "78"]{
-    animation: seventyeight 0.4s linear 15.59s reverse forwards;
-}
-
-[number = "79"]{
-    animation: seventynine 0.4s linear 13.16s reverse forwards;
-}
-
-[number = "80"]{
-    animation: eighty 0.4s linear 36.1s reverse forwards;
-}
-
-[number = "81"]{
-    animation: eightyone 0.4s linear 43.16s reverse forwards;
-}
-
-[number = "82"]{
-    animation: eightytwo 0.4s linear 11.36s reverse forwards;
-}
-
-[number = "83"]{
-    animation: eightythree 0.4s linear 6.18s reverse forwards;
-}
-
-[number = "84"]{
-    animation: eightyfour 0.4s linear 67.19s reverse forwards;
-}
-
-[number = "85"]{
-    animation: eightyfive 0.4s linear 34.41s reverse forwards;
-}
-
-[number = "86"]{
-    animation: eightysix 0.4s linear 71.16s reverse forwards;
-}
-
-[number = "87"]{
-    animation: eightyseven 0.4s linear 59.56s reverse forwards;
-}
-
-[number = "88"]{
-    animation: eightyeight 0.4s linear 21.5s reverse forwards;
-}
-
-[number = "89"]{
-    animation: eightynine 0.4s linear 47.32s reverse forwards;
-}
-
-[number = "90"]{
-    animation: ninety 0.4s linear 46.49s reverse forwards;
-}
-
-[number = "91"]{
-    animation: ninetyone 0.4s linear 74.1s reverse forwards;
-}
-
-[number = "92"]{
-    animation: ninetytwo 0.4s linear 29.05s reverse forwards;
-}
-
-[number = "93"]{
-    animation: ninetythree 0.4s linear 55.56s reverse forwards;
-}
-
-[number = "94"]{
-    animation: ninetyfour 0.4s linear 37.48s reverse forwards;
-}
-
-[number = "95"]{
-    animation: ninetyfive 0.4s linear 5.33s reverse forwards;
-}
-
-[number = "96"]{
-    animation: ninetysix 0.4s linear 25.46s reverse forwards;
-}
-
-[number = "97"]{
-    animation: ninetyseven 0.4s linear 35.43s reverse forwards;
-}
-
-[number = "98"]{
-    animation: ninetyeight 0.4s linear 1.24s reverse forwards;
-}
-
-[number = "99"]{
-    animation: ninetynine 0.4s linear 16.49s reverse forwards;
-}
-
-@keyframes ninetynine{
-    0%{
-        transform: translate(9000px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes ninetyeight{
-    0%{
-        transform: translate(2060px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes ninetyseven{
-    0%{
-        transform: translate(2660px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes ninetysix{
-    0%{
-        transform: translate(3660px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes ninetyfive{
-    0%{
-        transform: translate(6660px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes ninetyfour{
-    0%{
-        transform: translate(4660px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes ninetythree{
-    0%{
-        transform: translate(1660px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes ninetytwo{
-    0%{
-        transform: translate(-260px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes ninetyone{
-    0%{
-        transform: translate(-405px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes ninety{
-    0%{
-        transform: translate(-305px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes eightynine{
-    0%{
-        transform: translate(-355px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes eightyeight{
-    0%{
-        transform: translate(-215px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes eightyseven{
-    0%{
-        transform: translate(20px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes eightysix{
-    0%{
-        transform: translate(-175px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes eightyfive{
-    0%{
-        transform: translate(-20px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes eightyfour{
-    0%{
-        transform: translate(-135px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes eightythree{
-    0%{
-        transform: translate(-95px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes eightytwo{
-    0%{
-        transform: translate(-60px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes eightyone{
-    0%{
-        transform: translate(-1380px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes eighty{
-    0%{
-        transform: translate(-1180px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes seventynine{
-    0%{
-        transform: translate(-1005px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes seventyeight{
-    0%{
-        transform: translate(-1650px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes seventyseven{
-    0%{
-        transform: translate(-2075px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes seventysix{
-    0%{
-        transform: translate(-675px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes seventyfive{
-    0%{
-        transform: translate(-600px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes seventyfour{
-    0%{
-        transform: translate(-530px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes seventythree{
-    0%{
-        transform: translate(-765px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes seventytwo{
-    0%{
-        transform: translate(-465px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes seventyone{
-    0%{
-        transform: translate(-875px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes seventy{
-    0%{
-        transform: translate(215px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes sixtynine{
-    0%{
-        transform: translate(55px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes sixtyeight{
-    0%{
-        transform: translate(1190px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes sixtyseven{
-    0%{
-        transform: translate(765px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes sixtysix{
-    0%{
-        transform: translate(885px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes sixtyfive{
-    0%{
-        transform: translate(1395px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes sixtyfour{
-    0%{
-        transform: translate(1015px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes sixtythree{
-    0%{
-        transform: translate(5575px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes sixtytwo{
-    0%{
-        transform: translate(3675px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes sixtyone{
-    0%{
-        transform: translate(1675px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes sixty{
-    0%{
-        transform: translate(2075px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fiftynine{
-    0%{
-        transform: translate(2675px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fiftyeight{
-    0%{
-        transform: translate(675px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fiftyseven{
-    0%{
-        transform: translate(-2675px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fiftysix{
-    0%{
-        transform: translate(175px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fiftyfive{
-    0%{
-        transform: translate(135px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fiftyfour{
-    0%{
-        transform: translate(95px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fiftythree{
-    0%{
-        transform: translate(260px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fiftytwo{
-    0%{
-        transform: translate(530px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fiftyone{
-    0%{
-        transform: translate(595px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fifty{
-    0%{
-        transform: translate(465px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fortynine{
-    0%{
-        transform: translate(355px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fortyeight{
-    0%{
-        transform: translate(310px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fortyseven{
-    0%{
-        transform: translate(410px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fortysix{
-    0%{
-        transform: translate(-310px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fortyfive{
-    0%{
-        transform: translate(135px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fortyfour{
-    0%{
-        transform: translate(95px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fortythree{
-    0%{
-        transform: translate(-135px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fortytwo{
-    0%{
-        transform: translate(215px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fortyone{
-    0%{
-        transform: translate(260px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes forty{
-    0%{
-        transform: translate(-60px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes thirtynine{
-    0%{
-        transform: translate(-100px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes thirtyeight{
-    0%{
-        transform: translate(-20px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes thirtyseven{
-    0%{
-        transform: translate(15px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes thirtysix{
-    0%{
-        transform: translate(55px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes thirtyfive{
-    0%{
-        transform: translate(180px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes thirtyfour{
-    0%{
-        transform: translate(880px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes thirtythree{
-    0%{
-        transform: translate(780px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes thirtytwo{
-    0%{
-        transform: translate(685px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes thirtyone{
-    0%{
-        transform: translate(1180px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes thirty{
-    0%{
-        transform: translate(310px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes twentynine{
-    0%{
-        transform: translate(1015px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes twentyeight{
-    0%{
-        transform: translate(355px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes twentyseven{
-    0%{
-        transform: translate(410px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes twentysix{
-    0%{
-        transform: translate(470px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes twentyfive{
-    0%{
-        transform: translate(535px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes twentyfour{
-    0%{
-        transform: translate(605px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes twentythree{
-    0%{
-        transform: translate(-605px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes twentytwo{
-    0%{
-        transform: translate(-2060px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes twentyone{
-    0%{
-        transform: translate(-1660px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes twenty{
-    0%{
-        transform: translate(-1160px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes nineteen{
-    0%{
-        transform: translate(-2670px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes eighteen{
-    0%{
-        transform: translate(-1010px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes seventeen{
-    0%{
-        transform: translate(-1395px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes sixteen{
-    0%{
-        transform: translate(-18505px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fifteen{
-    0%{
-        transform: translate(-6505px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes fourteen{
-    0%{
-        transform: translate(-3705px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes thirteen{
-    0%{
-        transform: translate(-16285px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes twelve{
-    0%{
-        transform: translate(-2885px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes eleven{
-    0%{
-        transform: translate(-770px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes ten{
-    0%{
-        transform: translate(-355px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes nine{
-    0%{
-        transform: translate(1385px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes eight{
-    0%{
-        transform: translate(-885px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes seven{
-    0%{
-        transform: translate(-410px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes six{
-    0%{
-        transform: translate(-260px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes five{
-    0%{
-        transform: translate(-215px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes four{
-    0%{
-        transform: translate(-465px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes three{
-    0%{
-        transform: translate(-680px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes two{
-    0%{
-        transform: translate(-175px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes one{
-    0%{
-        transform: translate(-530px, -600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-@keyframes zero{
-    0%{
-        transform: translate(-3760px, 600px);
-    }
-    100%{
-        transform: translate(0px, 0px);
-    }
-}
-
-/* @keyframes zero{
-    0%{
-        opacity: 1;
-    }
-    1%{
-        transform: translate(0px, 0px);
-    }
-    89%{
-        opacity: 0;
-    }
-    99%{
-        transform: translate(-3760px, 600px);
-        opacity: 1;
-    }
+/* 
+@keyframes rotate {
     100%{
-        transform: translate(0px, 0px);
-        opacity: 1;
+        transform: rotate(360deg);
     }
 } */
+
+[number="0"] {
+    animation: zero 78.4s linear 2.55s reverse forwards infinite;
+}
+
+[number="1"] {
+    animation: one 78.4s linear 3.63s reverse forwards infinite;
+}
+
+[number="2"] {
+    animation: two 78.4s linear 14.05s reverse forwards infinite;
+}
+
+[number="3"] {
+    animation: three 78.4s linear 18.06s reverse forwards infinite;
+}
+
+[number="4"] {
+    animation: four 78.4s linear 2.15s reverse forwards infinite;
+}
+
+[number="5"] {
+    animation: five 78.4s linear 16.62s reverse forwards infinite;
+}
+
+[number="6"] {
+    animation: six 78.4s linear 34.11s reverse forwards infinite;
+}
+
+[number="7"] {
+    animation: seven 78.4s linear 35.68s reverse forwards infinite;
+}
+
+[number="8"] {
+    animation: eight 78.4s linear 25.87s reverse forwards infinite;
+}
+
+[number="9"] {
+    animation: nine 78.4s linear 3.15s reverse forwards infinite;
+}
+
+[number="10"] {
+    animation: ten 78.4s linear 20.1s reverse forwards infinite;
+}
+
+[number="11"] {
+    animation: eleven 78.4s linear 22.24s reverse forwards infinite;
+}
+
+[number="12"] {
+    animation: twelve 78.4s linear 13.06s reverse forwards infinite;
+}
+
+[number="13"] {
+    animation: thirteen 78.4s linear 36.98s reverse forwards infinite;
+}
+
+[number="14"] {
+    animation: fourteen 78.4s linear 8.21s reverse forwards infinite;
+}
+
+[number="15"] {
+    animation: fifteen 78.4s linear 3.94s reverse forwards infinite;
+}
+
+[number="16"] {
+    animation: sixteen 78.4s linear 19.23s reverse forwards infinite;
+}
+
+[number="17"] {
+    animation: seventeen 78.4s linear 37.15s reverse forwards infinite;
+}
+
+[number="18"] {
+    animation: eighteen 78.4s linear 12.67s reverse forwards infinite;
+}
+
+[number="19"] {
+    animation: nineteen 78.4s linear 16.23s reverse forwards infinite;
+}
+
+[number="20"] {
+    animation: twenty 78.4s linear 19.63s reverse forwards infinite;
+}
+
+[number="21"] {
+    animation: twentyone 78.4s linear 26.71s reverse forwards infinite;
+}
+
+[number="22"] {
+    animation: twentytwo 78.4s linear 6.26s reverse forwards infinite;
+}
+
+[number="23"] {
+    animation: twentythree 78.4s linear 11.02s reverse forwards infinite;
+}
+
+[number="24"] {
+    animation: twentyfour 78.4s linear 18.29s reverse forwards infinite;
+}
+
+[number="25"] {
+    animation: twentyfive 78.4s linear 22.08s reverse forwards infinite;
+}
+
+[number="26"] {
+    animation: twentysix 78.4s linear 35.27s reverse forwards infinite;
+}
+
+[number="27"] {
+    animation: twentyseven 78.4s linear 22.19s reverse forwards infinite;
+}
+
+[number="28"] {
+    animation: twentyeight 78.4s linear 1.27s reverse forwards infinite;
+}
+
+[number="29"] {
+    animation: twentynine 78.4s linear 10.11s reverse forwards infinite;
+}
+
+[number="30"] {
+    animation: thirty 78.4s linear 29.51s reverse forwards infinite;
+}
+
+[number="31"] {
+    animation: thirtyone 78.4s linear 34.02s reverse forwards infinite;
+}
+
+[number="32"] {
+    animation: thirtytwo 78.4s linear 35.32s reverse forwards infinite;
+}
+
+[number="33"] {
+    animation: thirtythree 78.4s linear 33.31s reverse forwards infinite;
+}
+
+[number="34"] {
+    animation: thirtyfour 78.4s linear 16.18s reverse forwards infinite;
+}
+
+[number="35"] {
+    animation: thirtyfive 78.4s linear 16.08s reverse forwards infinite;
+}
+
+[number="36"] {
+    animation: thirtysix 78.4s linear 1.18s reverse forwards infinite;
+}
+
+[number="37"] {
+    animation: thirtyseven 78.4s linear 15.26s reverse forwards infinite;
+}
+
+[number="38"] {
+    animation: thirtyeight 78.4s linear 32.59s reverse forwards infinite;
+}
+
+[number="39"] {
+    animation: thirtynine 78.4s linear 37.46s reverse forwards infinite;
+}
+
+[number="40"] {
+    animation: forty 78.4s linear 14.02s reverse forwards infinite;
+}
+
+[number="41"] {
+    animation: fortyone 78.4s linear 30.31s reverse forwards infinite;
+}
+
+[number="42"] {
+    animation: fortytwo 78.4s linear 36.54s reverse forwards infinite;
+}
+
+[number="43"] {
+    animation: fortythree 78.4s linear 14.33s reverse forwards infinite;
+}
+
+[number="44"] {
+    animation: fortyfour 78.4s linear 31.3s reverse forwards infinite;
+}
+
+[number="45"] {
+    animation: fortyfive 78.4s linear 25.15s reverse forwards infinite;
+}
+
+[number="46"] {
+    animation: fortysix 78.4s linear 14.53s reverse forwards infinite;
+}
+
+[number="47"] {
+    animation: fortyseven 78.4s linear 20.8s reverse forwards infinite;
+}
+
+[number="48"] {
+    animation: fortyeight 78.4s linear 31.26s reverse forwards infinite;
+}
+
+[number="49"] {
+    animation: fortynine 78.4s linear 28.24s reverse forwards infinite;
+}
+
+[number="50"] {
+    animation: fifty 78.4s linear 14.02s reverse forwards infinite;
+}
+
+[number="51"] {
+    animation: fiftyone 78.4s linear 2.33s reverse forwards infinite;
+}
+
+[number="52"] {
+    animation: fiftytwo 78.4s linear 29.01s reverse forwards infinite;
+}
+
+[number="53"] {
+    animation: fiftythree 78.4s linear 12.52s reverse forwards infinite;
+}
+
+[number="54"] {
+    animation: fiftyfour 78.4s linear 26.26s reverse forwards infinite;
+}
+
+[number="55"] {
+    animation: fiftyfive 78.4s linear 38.12s reverse forwards infinite;
+}
+
+[number="56"] {
+    animation: fiftysix 78.4s linear 13.51s reverse forwards infinite;
+}
+
+[number="57"] {
+    animation: fiftyseven 78.4s linear 14.15s reverse forwards infinite;
+}
+
+[number="58"] {
+    animation: fiftyeight 78.4s linear 16.55s reverse forwards infinite;
+}
+
+[number="59"] {
+    animation: fiftynine 78.4s linear 11.09s reverse forwards infinite;
+}
+
+[number="60"] {
+    animation: sixty 78.4s linear 4.1s reverse forwards infinite;
+}
+
+[number="61"] {
+    animation: sixtyone 78.4s linear 14.11s reverse forwards infinite;
+}
+
+[number="62"] {
+    animation: sixtytwo 78.4s linear 13.54s reverse forwards infinite;
+}
+
+[number="63"] {
+    animation: sixtythree 78.4s linear 15.48s reverse forwards infinite;
+}
+
+[number="64"] {
+    animation: sixtyfour 78.4s linear 11.08s reverse forwards infinite;
+}
+
+[number="65"] {
+    animation: sixtyfive 78.4s linear 8.55s reverse forwards infinite;
+}
+
+[number="66"] {
+    animation: sixtysix 78.4s linear 13.53s reverse forwards infinite;
+}
+
+[number="67"] {
+    animation: sixtyseven 78.4s linear 15.12s reverse forwards infinite;
+}
+
+[number="68"] {
+    animation: sixtyeight 78.4s linear 31.28s reverse forwards infinite;
+}
+
+[number="69"] {
+    animation: sixtynine 78.4s linear 24.21s reverse forwards infinite;
+}
+
+[number="70"] {
+    animation: seventy 78.4s linear 19.38s reverse forwards infinite;
+}
+
+[number="71"] {
+    animation: seventyone 78.4s linear 1.08s reverse forwards infinite;
+}
+
+[number="72"] {
+    animation: seventytwo 78.4s linear 2.31s reverse forwards infinite;
+}
+
+[number="73"] {
+    animation: seventythree 78.4s linear 16.25s reverse forwards infinite;
+}
+
+[number="74"] {
+    animation: seventyfour 78.4s linear 31.57s reverse forwards infinite;
+}
+
+[number="75"] {
+    animation: seventyfive 78.4s linear 24.42s reverse forwards infinite;
+}
+
+[number="76"] {
+    animation: seventysix 78.4s linear 14.5s reverse forwards infinite;
+}
+
+[number="77"] {
+    animation: seventyseven 78.4s linear 12.18s reverse forwards infinite;
+}
+
+[number="78"] {
+    animation: seventyeight 78.4s linear 8.59s reverse forwards infinite;
+}
+
+[number="79"] {
+    animation: seventynine 78.4s linear 6.16s reverse forwards infinite;
+}
+
+[number="80"] {
+    animation: eighty 78.4s linear 18.1s reverse forwards infinite;
+}
+
+[number="81"] {
+    animation: eightyone 78.4s linear 21.16s reverse forwards infinite;
+}
+
+[number="82"] {
+    animation: eightytwo 78.4s linear 6.36s reverse forwards infinite;
+}
+
+[number="83"] {
+    animation: eightythree 78.4s linear 3.18s reverse forwards infinite;
+}
+
+[number="84"] {
+    animation: eightyfour 78.4s linear 34.19s reverse forwards infinite;
+}
+
+[number="85"] {
+    animation: eightyfive 78.4s linear 16.41s reverse forwards infinite;
+}
+
+[number="86"] {
+    animation: eightysix 78.4s linear 35.16s reverse forwards infinite;
+}
+
+[number="87"] {
+    animation: eightyseven 78.4s linear 29.56s reverse forwards infinite;
+}
+
+[number="88"] {
+    animation: eightyeight 78.4s linear 10.5s reverse forwards infinite;
+}
+
+[number="89"] {
+    animation: eightynine 78.4s linear 24.32s reverse forwards infinite;
+}
+
+[number="90"] {
+    animation: ninety 78.4s linear 23.49s reverse forwards infinite;
+}
+
+[number="91"] {
+    animation: ninetyone 78.4s linear 37.1s reverse forwards infinite;
+}
+
+[number="92"] {
+    animation: ninetytwo 78.4s linear 14.05s reverse forwards infinite;
+}
+
+[number="93"] {
+    animation: ninetythree 78.4s linear 27.56s reverse forwards infinite;
+}
+
+[number="94"] {
+    animation: ninetyfour 78.4s linear 19.48s reverse forwards infinite;
+}
+
+[number="95"] {
+    animation: ninetyfive 78.4s linear 3.33s reverse forwards infinite;
+}
+
+[number="96"] {
+    animation: ninetysix 78.4s linear 12.46s reverse forwards infinite;
+}
+
+[number="97"] {
+    animation: ninetyseven 78.4s linear 16.43s reverse forwards infinite;
+}
+
+[number="98"] {
+    animation: ninetyeight 78.4s linear 1.24s reverse forwards infinite;
+}
+
+[number="99"] {
+    animation: ninetynine 78.4s linear 8.49s reverse forwards infinite;
+}
+
+@keyframes ninetynine {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(9000px, 600px);
+
+    }
+
+    99% {
+        transform: translate(9000px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes ninetyeight {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(2060px, -600px);
+
+    }
+
+    99% {
+        transform: translate(2060px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes ninetyseven {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(2660px, -600px);
+
+    }
+
+    99% {
+        transform: translate(2660px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes ninetysix {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(3660px, -600px);
+
+    }
+
+    99% {
+        transform: translate(3660px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes ninetyfive {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(6660px, -600px);
+
+    }
+
+    99% {
+        transform: translate(6660px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes ninetyfour {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(4660px, -600px);
+
+    }
+
+    99% {
+        transform: translate(4660px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes ninetythree {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(1660px, -600px);
+
+    }
+
+    99% {
+        transform: translate(1660px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes ninetytwo {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-260px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-260px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes ninetyone {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-405px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-405px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes ninety {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-305px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-305px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes eightynine {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-355px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-355px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes eightyeight {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-215px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-215px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes eightyseven {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(20px, 600px);
+
+    }
+
+    99% {
+        transform: translate(20px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes eightysix {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-175px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-175px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes eightyfive {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-20px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-20px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes eightyfour {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-135px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-135px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes eightythree {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-95px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-95px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes eightytwo {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-60px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-60px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes eightyone {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-1380px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-1380px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes eighty {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-1180px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-1180px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes seventynine {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-1005px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-1005px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes seventyeight {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-1650px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-1650px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes seventyseven {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-2075px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-2075px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes seventysix {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-675px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-675px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes seventyfive {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-600px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-600px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes seventyfour {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-530px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-530px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes seventythree {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-765px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-765px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes seventytwo {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-465px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-465px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes seventyone {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-875px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-875px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes seventy {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(215px, 600px);
+
+    }
+
+    99% {
+        transform: translate(215px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes sixtynine {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(55px, 600px);
+
+    }
+
+    99% {
+        transform: translate(55px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes sixtyeight {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(1190px, 600px);
+
+    }
+
+    99% {
+        transform: translate(1190px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes sixtyseven {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(765px, 600px);
+
+    }
+
+    99% {
+        transform: translate(765px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes sixtysix {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(885px, 600px);
+
+    }
+
+    99% {
+        transform: translate(885px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes sixtyfive {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(1395px, 600px);
+
+    }
+
+    99% {
+        transform: translate(1395px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes sixtyfour {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(1015px, 600px);
+
+    }
+
+    99% {
+        transform: translate(1015px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes sixtythree {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(5575px, 600px);
+
+    }
+
+    99% {
+        transform: translate(5575px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes sixtytwo {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(3675px, 600px);
+
+    }
+
+    99% {
+        transform: translate(3675px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes sixtyone {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(1675px, 600px);
+
+    }
+
+    99% {
+        transform: translate(1675px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes sixty {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(2075px, 600px);
+
+    }
+
+    99% {
+        transform: translate(2075px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fiftynine {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(2675px, 600px);
+
+    }
+
+    99% {
+        transform: translate(2675px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fiftyeight {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(675px, 600px);
+
+    }
+
+    99% {
+        transform: translate(675px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fiftyseven {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-2675px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-2675px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fiftysix {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(175px, 600px);
+
+    }
+
+    99% {
+        transform: translate(175px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fiftyfive {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(135px, 600px);
+
+    }
+
+    99% {
+        transform: translate(135px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fiftyfour {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(95px, 600px);
+
+    }
+
+    99% {
+        transform: translate(95px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fiftythree {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(260px, 600px);
+
+    }
+
+    99% {
+        transform: translate(260px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fiftytwo {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(530px, 600px);
+
+    }
+
+    99% {
+        transform: translate(530px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fiftyone {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(595px, 600px);
+
+    }
+
+    99% {
+        transform: translate(595px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fifty {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(465px, 600px);
+
+    }
+
+    99% {
+        transform: translate(465px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fortynine {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(355px, 600px);
+
+    }
+
+    99% {
+        transform: translate(355px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fortyeight {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(310px, 600px);
+
+    }
+
+    99% {
+        transform: translate(310px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fortyseven {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(410px, 600px);
+
+    }
+
+    99% {
+        transform: translate(410px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fortysix {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-310px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-310px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fortyfive {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(135px, -600px);
+
+    }
+
+    99% {
+        transform: translate(135px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fortyfour {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(95px, -600px);
+
+    }
+
+    99% {
+        transform: translate(95px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fortythree {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-135px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-135px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fortytwo {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(215px, -600px);
+
+    }
+
+    99% {
+        transform: translate(215px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fortyone {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(260px, -600px);
+
+    }
+
+    99% {
+        transform: translate(260px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes forty {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-60px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-60px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes thirtynine {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-100px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-100px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes thirtyeight {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-20px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-20px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes thirtyseven {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(15px, -600px);
+
+    }
+
+    99% {
+        transform: translate(15px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes thirtysix {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(55px, -600px);
+
+    }
+
+    99% {
+        transform: translate(55px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes thirtyfive {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(180px, -600px);
+
+    }
+
+    99% {
+        transform: translate(180px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes thirtyfour {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(880px, -600px);
+
+    }
+
+    99% {
+        transform: translate(880px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes thirtythree {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(780px, -600px);
+
+    }
+
+    99% {
+        transform: translate(780px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes thirtytwo {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(685px, -600px);
+
+    }
+
+    99% {
+        transform: translate(685px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes thirtyone {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(1180px, -600px);
+
+    }
+
+    99% {
+        transform: translate(1180px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes thirty {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(310px, -600px);
+
+    }
+
+    99% {
+        transform: translate(310px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes twentynine {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(1015px, -600px);
+
+    }
+
+    99% {
+        transform: translate(1015px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes twentyeight {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(355px, -600px);
+
+    }
+
+    99% {
+        transform: translate(355px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes twentyseven {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(410px, -600px);
+
+    }
+
+    99% {
+        transform: translate(410px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes twentysix {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(470px, -600px);
+
+    }
+
+    99% {
+        transform: translate(470px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes twentyfive {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(535px, -600px);
+
+    }
+
+    99% {
+        transform: translate(535px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes twentyfour {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(605px, -600px);
+
+    }
+
+    99% {
+        transform: translate(605px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes twentythree {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-605px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-605px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes twentytwo {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-2060px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-2060px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes twentyone {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-1660px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-1660px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes twenty {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-1160px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-1160px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes nineteen {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-2670px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-2670px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes eighteen {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-1010px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-1010px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes seventeen {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-1395px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-1395px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes sixteen {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-18505px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-18505px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fifteen {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-6505px, 600px);
+
+    }
+
+    99% {
+        transform: translate(-6505px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fourteen {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-3705px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-3705px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes thirteen {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-16285px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-16285px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes twelve {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-2885px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-2885px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes eleven {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-770px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-770px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes ten {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-355px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-355px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes nine {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(1385px, -600px);
+
+    }
+
+    99% {
+        transform: translate(1385px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes eight {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-885px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-885px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes seven {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-410px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-410px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes six {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-260px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-260px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes five {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-215px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-215px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes four {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-465px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-465px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes three {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-680px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-680px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes two {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-175px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-175px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes one {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-530px, -600px);
+
+    }
+
+    99% {
+        transform: translate(-530px, -600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes zero {
+    0% {
+        transform: translate(0px, 0px);
+
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+
+    }
+
+    51% {
+
+        transform: translate(-3760px, 600px);
+    }
+
+    99% {
+        transform: translate(-3760px, 600px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
